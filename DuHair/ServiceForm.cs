@@ -65,7 +65,7 @@ namespace DuHair
         {
             using (ModelContext db = new ModelContext())
             {
-                serviceModelBindingSource.DataSource = db.ServiceList.ToList();
+                serviceModelBindingSource.DataSource = db.ServiceList.ToList().OrderBy(s => s.Order);
                 materialModelBindingSource.DataSource = db.MaterialList.Where(m => m.Status.Equals("Hiển thị")).ToList();
             }
             //popupMaterial.DataBindings.Add("EditValue", materialModelBindingSource, "Name", false, DataSourceUpdateMode.OnPropertyChanged);
@@ -259,6 +259,32 @@ namespace DuHair
                     e.Handled = true;
                 }
             }
+        }
+
+        private void gridView1_CellValueChanged(object sender, CellValueChangedEventArgs e)
+        {
+            try
+            {
+                ModelContext db = new ModelContext();
+                int order = Convert.ToInt32(e.Value);
+                int serviceId = Convert.ToInt32(gridView1.GetRowCellValue(e.RowHandle, "ServiceId"));
+                var raisedOrder = order + 1;
+                db.ServiceList.Where(s => s.ServiceId == serviceId).First().Order = order;
+                db.ServiceList.Where(s => s.Order >= order && s.ServiceId != serviceId).OrderBy(s => s.Order).ToList().ForEach(s => s.Order = raisedOrder++);
+                db.SaveChanges();
+
+                serviceModelBindingSource.DataSource = db.ServiceList.ToList().OrderBy(s => s.Order);
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+        }
+
+        private void gridView1_RowUpdated(object sender, RowObjectEventArgs e)
+        {
+
         }
     }
 }

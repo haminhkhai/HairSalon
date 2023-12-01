@@ -34,7 +34,7 @@ namespace DuHair
             if (txtName.Text.Trim().Length < 3)
             {
                 lbStatus.Text = "Tên sản phẩm phải từ 3 kí tự";
-                //txtName.Focus();
+                txtName.Focus();
                 return false;
             }
             if (!txtName.Text.Trim().Equals(currentName))

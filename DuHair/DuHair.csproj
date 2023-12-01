@@ -65,7 +65,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
@@ -206,55 +206,20 @@
     <Compile Include="EmployeeForm.Designer.cs">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805160509352_add-MaterialDiscount.cs" />
-    <Compile Include="Migrations\201805160509352_add-MaterialDiscount.Designer.cs">
-      <DependentUpon>201805160509352_add-MaterialDiscount.cs</DependentUpon>
+    <Compile Include="Migrations\201806090821329_Order.cs" />
+    <Compile Include="Migrations\201806090821329_Order.Designer.cs">
+      <DependentUpon>201806090821329_Order.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805160514211_fix1.cs" />
-    <Compile Include="Migrations\201805160514211_fix1.Designer.cs">
-      <DependentUpon>201805160514211_fix1.cs</DependentUpon>
+    <Compile Include="Migrations\201806261312245_things.cs" />
+    <Compile Include="Migrations\201806261312245_things.Designer.cs">
+      <DependentUpon>201806261312245_things.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805160514459_fix2.cs" />
-    <Compile Include="Migrations\201805160514459_fix2.Designer.cs">
-      <DependentUpon>201805160514459_fix2.cs</DependentUpon>
+    <Compile Include="Migrations\201807031116238_AddIsPaidWithCash.cs" />
+    <Compile Include="Migrations\201807031116238_AddIsPaidWithCash.Designer.cs">
+      <DependentUpon>201807031116238_AddIsPaidWithCash.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805161052593_fix3.cs" />
-    <Compile Include="Migrations\201805161052593_fix3.Designer.cs">
-      <DependentUpon>201805161052593_fix3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805191529011_add-discountMoneyToSellTran.cs" />
-    <Compile Include="Migrations\201805191529011_add-discountMoneyToSellTran.Designer.cs">
-      <DependentUpon>201805191529011_add-discountMoneyToSellTran.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805191533138_fixSellTranDetail.cs" />
-    <Compile Include="Migrations\201805191533138_fixSellTranDetail.Designer.cs">
-      <DependentUpon>201805191533138_fixSellTranDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805220305299_fixCommission4.cs" />
-    <Compile Include="Migrations\201805220305299_fixCommission4.Designer.cs">
-      <DependentUpon>201805220305299_fixCommission4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805220739336_addSellTranCom.cs" />
-    <Compile Include="Migrations\201805220739336_addSellTranCom.Designer.cs">
-      <DependentUpon>201805220739336_addSellTranCom.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805220835432_rename.cs" />
-    <Compile Include="Migrations\201805220835432_rename.Designer.cs">
-      <DependentUpon>201805220835432_rename.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805260429069_addCasher.cs" />
-    <Compile Include="Migrations\201805260429069_addCasher.Designer.cs">
-      <DependentUpon>201805260429069_addCasher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805261700164_addDiscountType.cs" />
-    <Compile Include="Migrations\201805261700164_addDiscountType.Designer.cs">
-      <DependentUpon>201805261700164_addDiscountType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805270342338_addServiceQuantity.cs" />
-    <Compile Include="Migrations\201805270342338_addServiceQuantity.Designer.cs">
-      <DependentUpon>201805270342338_addServiceQuantity.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Model\TransactionDetail.cs" />
+    <Compile Include="Model\TransactionEmployee.cs" />
+    <Compile Include="Model\TransactionService.cs" />
     <Compile Include="SellTranForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -278,210 +243,11 @@
     <Compile Include="MaterialForm.Designer.cs">
       <DependentUpon>MaterialForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201803140623142_updatesexdatatype.cs" />
-    <Compile Include="Migrations\201803140623142_updatesexdatatype.Designer.cs">
-      <DependentUpon>201803140623142_updatesexdatatype.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803141416466_updatemodel.cs" />
-    <Compile Include="Migrations\201803141416466_updatemodel.Designer.cs">
-      <DependentUpon>201803141416466_updatemodel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803160524439_InitialMaterialModel.cs" />
-    <Compile Include="Migrations\201803160524439_InitialMaterialModel.Designer.cs">
-      <DependentUpon>201803160524439_InitialMaterialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803160538413_editMaterialModel.cs" />
-    <Compile Include="Migrations\201803160538413_editMaterialModel.Designer.cs">
-      <DependentUpon>201803160538413_editMaterialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803200001404_AddServiceDetailModel.cs" />
-    <Compile Include="Migrations\201803200001404_AddServiceDetailModel.Designer.cs">
-      <DependentUpon>201803200001404_AddServiceDetailModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803230536495_removeServiceDetail.cs" />
-    <Compile Include="Migrations\201803230536495_removeServiceDetail.Designer.cs">
-      <DependentUpon>201803230536495_removeServiceDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803230554437_smallfix.cs" />
-    <Compile Include="Migrations\201803230554437_smallfix.Designer.cs">
-      <DependentUpon>201803230554437_smallfix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803251116212_realizeDumpNess.cs" />
-    <Compile Include="Migrations\201803251116212_realizeDumpNess.Designer.cs">
-      <DependentUpon>201803251116212_realizeDumpNess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803251121474_Realize2.cs" />
-    <Compile Include="Migrations\201803251121474_Realize2.Designer.cs">
-      <DependentUpon>201803251121474_Realize2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803261209157_addCustomer.cs" />
-    <Compile Include="Migrations\201803261209157_addCustomer.Designer.cs">
-      <DependentUpon>201803261209157_addCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803261312261_addTransactionModel.cs" />
-    <Compile Include="Migrations\201803261312261_addTransactionModel.Designer.cs">
-      <DependentUpon>201803261312261_addTransactionModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803271214025_addRelationShip.cs" />
-    <Compile Include="Migrations\201803271214025_addRelationShip.Designer.cs">
-      <DependentUpon>201803271214025_addRelationShip.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803281331596_fix.cs" />
-    <Compile Include="Migrations\201803281331596_fix.Designer.cs">
-      <DependentUpon>201803281331596_fix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803301133351_fixTransaction.cs" />
-    <Compile Include="Migrations\201803301133351_fixTransaction.Designer.cs">
-      <DependentUpon>201803301133351_fixTransaction.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803301144380_fixTransaction2.cs" />
-    <Compile Include="Migrations\201803301144380_fixTransaction2.Designer.cs">
-      <DependentUpon>201803301144380_fixTransaction2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803301153372_addChair.cs" />
-    <Compile Include="Migrations\201803301153372_addChair.Designer.cs">
-      <DependentUpon>201803301153372_addChair.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803301156304_fixChair.cs" />
-    <Compile Include="Migrations\201803301156304_fixChair.Designer.cs">
-      <DependentUpon>201803301156304_fixChair.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804021710367_addStatusToTransaction.cs" />
-    <Compile Include="Migrations\201804021710367_addStatusToTransaction.Designer.cs">
-      <DependentUpon>201804021710367_addStatusToTransaction.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804051317022_bigFixAndAddingStuff.cs" />
-    <Compile Include="Migrations\201804051317022_bigFixAndAddingStuff.Designer.cs">
-      <DependentUpon>201804051317022_bigFixAndAddingStuff.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804051318512_addRestock.cs" />
-    <Compile Include="Migrations\201804051318512_addRestock.Designer.cs">
-      <DependentUpon>201804051318512_addRestock.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804051657253_fixWarehouse.cs" />
-    <Compile Include="Migrations\201804051657253_fixWarehouse.Designer.cs">
-      <DependentUpon>201804051657253_fixWarehouse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804061001052_addPriceBuyToMaterial.cs" />
-    <Compile Include="Migrations\201804061001052_addPriceBuyToMaterial.Designer.cs">
-      <DependentUpon>201804061001052_addPriceBuyToMaterial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804061039517_fixMaterial.cs" />
-    <Compile Include="Migrations\201804061039517_fixMaterial.Designer.cs">
-      <DependentUpon>201804061039517_fixMaterial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804071144189_FixRestock.cs" />
-    <Compile Include="Migrations\201804071144189_FixRestock.Designer.cs">
-      <DependentUpon>201804071144189_FixRestock.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804080949160_removeTimeOfUse.cs" />
-    <Compile Include="Migrations\201804080949160_removeTimeOfUse.Designer.cs">
-      <DependentUpon>201804080949160_removeTimeOfUse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804091154343_addSpendNote.cs" />
-    <Compile Include="Migrations\201804091154343_addSpendNote.Designer.cs">
-      <DependentUpon>201804091154343_addSpendNote.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804091158120_addSpendDate.cs" />
-    <Compile Include="Migrations\201804091158120_addSpendDate.Designer.cs">
-      <DependentUpon>201804091158120_addSpendDate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804101430457_addWarehouseCheck.cs" />
-    <Compile Include="Migrations\201804101430457_addWarehouseCheck.Designer.cs">
-      <DependentUpon>201804101430457_addWarehouseCheck.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804110955188_fixSth.cs" />
-    <Compile Include="Migrations\201804110955188_fixSth.Designer.cs">
-      <DependentUpon>201804110955188_fixSth.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804111134525_addNoteToWarehouseCheck.cs" />
-    <Compile Include="Migrations\201804111134525_addNoteToWarehouseCheck.Designer.cs">
-      <DependentUpon>201804111134525_addNoteToWarehouseCheck.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804111259069_fixsth2.cs" />
-    <Compile Include="Migrations\201804111259069_fixsth2.Designer.cs">
-      <DependentUpon>201804111259069_fixsth2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804150734420_addComission.cs" />
-    <Compile Include="Migrations\201804150734420_addComission.Designer.cs">
-      <DependentUpon>201804150734420_addComission.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804181624280_fixEmployee.cs" />
-    <Compile Include="Migrations\201804181624280_fixEmployee.Designer.cs">
-      <DependentUpon>201804181624280_fixEmployee.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804190516410_fixsth21.cs" />
-    <Compile Include="Migrations\201804190516410_fixsth21.Designer.cs">
-      <DependentUpon>201804190516410_fixsth21.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804190523557_fixsth22.cs" />
-    <Compile Include="Migrations\201804190523557_fixsth22.Designer.cs">
-      <DependentUpon>201804190523557_fixsth22.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804190525283_fixsth23.cs" />
-    <Compile Include="Migrations\201804190525283_fixsth23.Designer.cs">
-      <DependentUpon>201804190525283_fixsth23.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804230103466_fixCommission.cs" />
-    <Compile Include="Migrations\201804230103466_fixCommission.Designer.cs">
-      <DependentUpon>201804230103466_fixCommission.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804231013232_fixCommission1.cs" />
-    <Compile Include="Migrations\201804231013232_fixCommission1.Designer.cs">
-      <DependentUpon>201804231013232_fixCommission1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804300936288_fixCommission2.cs" />
-    <Compile Include="Migrations\201804300936288_fixCommission2.Designer.cs">
-      <DependentUpon>201804300936288_fixCommission2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804301328142_fixServiceCommission.cs" />
-    <Compile Include="Migrations\201804301328142_fixServiceCommission.Designer.cs">
-      <DependentUpon>201804301328142_fixServiceCommission.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805010748571_fixCommission21.cs" />
-    <Compile Include="Migrations\201805010748571_fixCommission21.Designer.cs">
-      <DependentUpon>201805010748571_fixCommission21.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805010810160_fixDataType.cs" />
-    <Compile Include="Migrations\201805010810160_fixDataType.Designer.cs">
-      <DependentUpon>201805010810160_fixDataType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805010840549_fix-Commission3.cs" />
-    <Compile Include="Migrations\201805010840549_fix-Commission3.Designer.cs">
-      <DependentUpon>201805010840549_fix-Commission3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805061133116_timeKeeping.cs" />
-    <Compile Include="Migrations\201805061133116_timeKeeping.Designer.cs">
-      <DependentUpon>201805061133116_timeKeeping.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805071206364_fixTimeKeepingDetail.cs" />
-    <Compile Include="Migrations\201805071206364_fixTimeKeepingDetail.Designer.cs">
-      <DependentUpon>201805071206364_fixTimeKeepingDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805100313279_fixTimeKeeping.cs" />
-    <Compile Include="Migrations\201805100313279_fixTimeKeeping.Designer.cs">
-      <DependentUpon>201805100313279_fixTimeKeeping.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805141149169_addOtherPrice.cs" />
-    <Compile Include="Migrations\201805141149169_addOtherPrice.Designer.cs">
-      <DependentUpon>201805141149169_addOtherPrice.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805151332498_add-SellTran.cs" />
-    <Compile Include="Migrations\201805151332498_add-SellTran.Designer.cs">
-      <DependentUpon>201805151332498_add-SellTran.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\Chair.cs" />
     <Compile Include="Model\Commission.cs" />
     <Compile Include="Model\RestockDetail.cs" />
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Employee.cs" />
-    <Compile Include="Example\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Example\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Example\Person.cs" />
     <Compile Include="Function\ModelContext.cs" />
     <Compile Include="Function\MyMessage.cs" />
     <Compile Include="Function\MySecurity.cs" />
@@ -496,10 +262,6 @@
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201803121012314_InitialModel.cs" />
-    <Compile Include="Migrations\201803121012314_InitialModel.Designer.cs">
-      <DependentUpon>201803121012314_InitialModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Material.cs" />
@@ -559,6 +321,12 @@
     <Compile Include="TkDetailAddEdit.Designer.cs">
       <DependentUpon>TkDetailAddEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="TransactionForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionForm2.Designer.cs">
+      <DependentUpon>TransactionForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="TransactionForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -609,50 +377,20 @@
     <EmbeddedResource Include="EmployeeForm.resx">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805160509352_add-MaterialDiscount.resx">
-      <DependentUpon>201805160509352_add-MaterialDiscount.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805160514211_fix1.resx">
-      <DependentUpon>201805160514211_fix1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805160514459_fix2.resx">
-      <DependentUpon>201805160514459_fix2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805161052593_fix3.resx">
-      <DependentUpon>201805161052593_fix3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805191529011_add-discountMoneyToSellTran.resx">
-      <DependentUpon>201805191529011_add-discountMoneyToSellTran.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805191533138_fixSellTranDetail.resx">
-      <DependentUpon>201805191533138_fixSellTranDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805220305299_fixCommission4.resx">
-      <DependentUpon>201805220305299_fixCommission4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805220739336_addSellTranCom.resx">
-      <DependentUpon>201805220739336_addSellTranCom.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805220835432_rename.resx">
-      <DependentUpon>201805220835432_rename.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805260429069_addCasher.resx">
-      <DependentUpon>201805260429069_addCasher.cs</DependentUpon>
-    </EmbeddedResource>
     <Content Include="rpSellBill.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EmbeddedResource Include="Migrations\201805261700164_addDiscountType.resx">
-      <DependentUpon>201805261700164_addDiscountType.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806090821329_Order.resx">
+      <DependentUpon>201806090821329_Order.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805270342338_addServiceQuantity.resx">
-      <DependentUpon>201805270342338_addServiceQuantity.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806261312245_things.resx">
+      <DependentUpon>201806261312245_things.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807031116238_AddIsPaidWithCash.resx">
+      <DependentUpon>201807031116238_AddIsPaidWithCash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SellTranForm.resx">
       <DependentUpon>SellTranForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Example\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
@@ -665,153 +403,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MaterialForm.resx">
       <DependentUpon>MaterialForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803121012314_InitialModel.resx">
-      <DependentUpon>201803121012314_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803140623142_updatesexdatatype.resx">
-      <DependentUpon>201803140623142_updatesexdatatype.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803141416466_updatemodel.resx">
-      <DependentUpon>201803141416466_updatemodel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803160524439_InitialMaterialModel.resx">
-      <DependentUpon>201803160524439_InitialMaterialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803160538413_editMaterialModel.resx">
-      <DependentUpon>201803160538413_editMaterialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803200001404_AddServiceDetailModel.resx">
-      <DependentUpon>201803200001404_AddServiceDetailModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803230536495_removeServiceDetail.resx">
-      <DependentUpon>201803230536495_removeServiceDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803230554437_smallfix.resx">
-      <DependentUpon>201803230554437_smallfix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803251116212_realizeDumpNess.resx">
-      <DependentUpon>201803251116212_realizeDumpNess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803251121474_Realize2.resx">
-      <DependentUpon>201803251121474_Realize2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803261209157_addCustomer.resx">
-      <DependentUpon>201803261209157_addCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803261312261_addTransactionModel.resx">
-      <DependentUpon>201803261312261_addTransactionModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803271214025_addRelationShip.resx">
-      <DependentUpon>201803271214025_addRelationShip.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803281331596_fix.resx">
-      <DependentUpon>201803281331596_fix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803301133351_fixTransaction.resx">
-      <DependentUpon>201803301133351_fixTransaction.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803301144380_fixTransaction2.resx">
-      <DependentUpon>201803301144380_fixTransaction2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803301153372_addChair.resx">
-      <DependentUpon>201803301153372_addChair.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803301156304_fixChair.resx">
-      <DependentUpon>201803301156304_fixChair.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804021710367_addStatusToTransaction.resx">
-      <DependentUpon>201804021710367_addStatusToTransaction.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804051317022_bigFixAndAddingStuff.resx">
-      <DependentUpon>201804051317022_bigFixAndAddingStuff.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804051318512_addRestock.resx">
-      <DependentUpon>201804051318512_addRestock.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804051657253_fixWarehouse.resx">
-      <DependentUpon>201804051657253_fixWarehouse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804061001052_addPriceBuyToMaterial.resx">
-      <DependentUpon>201804061001052_addPriceBuyToMaterial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804061039517_fixMaterial.resx">
-      <DependentUpon>201804061039517_fixMaterial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804071144189_FixRestock.resx">
-      <DependentUpon>201804071144189_FixRestock.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804080949160_removeTimeOfUse.resx">
-      <DependentUpon>201804080949160_removeTimeOfUse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804091154343_addSpendNote.resx">
-      <DependentUpon>201804091154343_addSpendNote.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804091158120_addSpendDate.resx">
-      <DependentUpon>201804091158120_addSpendDate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804101430457_addWarehouseCheck.resx">
-      <DependentUpon>201804101430457_addWarehouseCheck.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804110955188_fixSth.resx">
-      <DependentUpon>201804110955188_fixSth.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804111134525_addNoteToWarehouseCheck.resx">
-      <DependentUpon>201804111134525_addNoteToWarehouseCheck.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804111259069_fixsth2.resx">
-      <DependentUpon>201804111259069_fixsth2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804150734420_addComission.resx">
-      <DependentUpon>201804150734420_addComission.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804181624280_fixEmployee.resx">
-      <DependentUpon>201804181624280_fixEmployee.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804190516410_fixsth21.resx">
-      <DependentUpon>201804190516410_fixsth21.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804190523557_fixsth22.resx">
-      <DependentUpon>201804190523557_fixsth22.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804190525283_fixsth23.resx">
-      <DependentUpon>201804190525283_fixsth23.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804230103466_fixCommission.resx">
-      <DependentUpon>201804230103466_fixCommission.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804231013232_fixCommission1.resx">
-      <DependentUpon>201804231013232_fixCommission1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804300936288_fixCommission2.resx">
-      <DependentUpon>201804300936288_fixCommission2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804301328142_fixServiceCommission.resx">
-      <DependentUpon>201804301328142_fixServiceCommission.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805010748571_fixCommission21.resx">
-      <DependentUpon>201805010748571_fixCommission21.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805010810160_fixDataType.resx">
-      <DependentUpon>201805010810160_fixDataType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805010840549_fix-Commission3.resx">
-      <DependentUpon>201805010840549_fix-Commission3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805061133116_timeKeeping.resx">
-      <DependentUpon>201805061133116_timeKeeping.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805071206364_fixTimeKeepingDetail.resx">
-      <DependentUpon>201805071206364_fixTimeKeepingDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805100313279_fixTimeKeeping.resx">
-      <DependentUpon>201805100313279_fixTimeKeeping.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805141149169_addOtherPrice.resx">
-      <DependentUpon>201805141149169_addOtherPrice.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805151332498_add-SellTran.resx">
-      <DependentUpon>201805151332498_add-SellTran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -848,6 +439,9 @@
     <EmbeddedResource Include="TkDetailAddEdit.resx">
       <DependentUpon>TkDetailAddEdit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TransactionForm2.resx">
+      <DependentUpon>TransactionForm2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TransactionForm.resx">
       <DependentUpon>TransactionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -857,7 +451,9 @@
     <EmbeddedResource Include="WarehouseForm.resx">
       <DependentUpon>WarehouseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="DuHair_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Chair.datasource" />
@@ -932,6 +528,9 @@
     <Content Include="duhairico.ico" />
     <Content Include="Google-Noto-Emoji-Travel-Places-42527-barber-pole.ico" />
     <None Include="Resources\Google-Noto-Emoji-Travel-Places-42527-barber-pole.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Example\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

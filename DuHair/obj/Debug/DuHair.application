@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="DuHair.exe.manifest" size="73791">
+    <dependentAssembly dependencyType="install" codebase="DuHair.exe.manifest" size="75907">
       <assemblyIdentity name="DuHair.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XBO/97CgiDXVSvgFfGnl2ZnTRkPgloZEeJLUXS1I1Co=</dsig:DigestValue>
+        <dsig:DigestValue>1D6GlJydn3DPiZ+9fNm4B5TR8s2LYPDc5TVdA0XUumI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -85,61 +85,61 @@ namespace DuHair
             //money and billing
             else
             {
-                using (ModelContext db = new ModelContext())
-                {
-                    var rs = from t in db.TransactionList
-                             where t.TransactionId == transactionId
-                             select new
-                             {
-                                 customerId = (int?)t.Customer.CustomerId,
-                                 casherName = t.Casher.Name,
-                                 transactionDate = t.TransactionDate,
-                                 note = t.Note
-                             };
-                    this.Invoke((Action)(() =>
-                    {
-                        btnMoney.Visible = true;
-                        lbEmployeeName.Text = rs.First().casherName;
-                        lblTime.Text = rs.First().transactionDate.ToString("HH:mm dd/MM/yyyy");
-                        txtNote.Text = rs.First().note;
-                        lblId.Text = string.Format("GD-{0:D5}", transactionId);
-                        if (rs.FirstOrDefault().customerId == null)
-                            cbCustomer.EditValue = 0;
-                        else
-                            cbCustomer.EditValue = rs.FirstOrDefault().customerId;
-                    }));
+                //using (ModelContext db = new ModelContext())
+                //{
+                //    var rs = from t in db.TransactionList
+                //             where t.TransactionId == transactionId
+                //             select new
+                //             {
+                //                 customerId = (int?)t.Customer.CustomerId,
+                //                 casherName = t.Casher.Name,
+                //                 transactionDate = t.TransactionDate,
+                //                 note = t.Note
+                //             };
+                //    this.Invoke((Action)(() =>
+                //    {
+                //        btnMoney.Visible = true;
+                //        lbEmployeeName.Text = rs.First().casherName;
+                //        lblTime.Text = rs.First().transactionDate.ToString("HH:mm dd/MM/yyyy");
+                //        txtNote.Text = rs.First().note;
+                //        lblId.Text = string.Format("GD-{0:D5}", transactionId);
+                //        if (rs.FirstOrDefault().customerId == null)
+                //            cbCustomer.EditValue = 0;
+                //        else
+                //            cbCustomer.EditValue = rs.FirstOrDefault().customerId;
+                //    }));
 
-                    var result = from s in db.ServiceList
-                                 from t in s.Transactions
-                                 where t.TransactionId == transactionId
-                                 select new ServiceView { Name = s.Name, Price = s.Price, ServiceId = s.ServiceId, Discount = s.Discount, };
-                    var selectedServices = result.ToList();
-                    foreach (var service in selectedServices)
-                    {
-                        List<CommissionView> commissionList = db.ComissionList.Where(c => c.Service.ServiceId == service.ServiceId)
-                                                                              .Where(c => c.Transaction.TransactionId == transactionId)
-                                                                              .Select(c => new CommissionView
-                                                                              {
-                                                                                  CommissionId = c.CommissionId,
-                                                                                  CommissionPercent = c.CommissionPercent,
-                                                                                  Employee = c.Employee,
-                                                                                  ComMoney = c.ComMoney,
-                                                                                  SellComMoney = c.SellComMoney,
-                                                                                  Service = c.Service,
-                                                                                  Quantity = c.Quantity,
-                                                                                  OtherPrice = c.OtherPrice,
-                                                                                  ComType = c.ComType
-                                                                              }).ToList();
-                        try
-                        {
-                            this.Invoke((Action)(() =>
-                            {
-                                GetCommissionServiceEmployee(service, commissionList);
-                            }));
-                        }
-                        catch (Exception){}
-                    }
-                }
+                //    var result = from s in db.ServiceList
+                //                 from t in s.Transactions
+                //                 where t.TransactionId == transactionId
+                //                 select new ServiceView { Name = s.Name, Price = s.Price, ServiceId = s.ServiceId, Discount = s.Discount, };
+                //    var selectedServices = result.ToList();
+                //    foreach (var service in selectedServices)
+                //    {
+                //        List<CommissionView> commissionList = db.ComissionList.Where(c => c.Service.ServiceId == service.ServiceId)
+                //                                                              .Where(c => c.Transaction.TransactionId == transactionId)
+                //                                                              .Select(c => new CommissionView
+                //                                                              {
+                //                                                                  CommissionId = c.CommissionId,
+                //                                                                  CommissionPercent = c.CommissionPercent,
+                //                                                                  Employee = c.Employee,
+                //                                                                  ComMoney = c.ComMoney,
+                //                                                                  SellComMoney = c.SellComMoney,
+                //                                                                  Service = c.Service,
+                //                                                                  Quantity = c.Quantity,
+                //                                                                  OtherPrice = c.OtherPrice,
+                //                                                                  ComType = c.ComType
+                //                                                              }).ToList();
+                //        try
+                //        {
+                //            this.Invoke((Action)(() =>
+                //            {
+                //                GetCommissionServiceEmployee(service, commissionList);
+                //            }));
+                //        }
+                //        catch (Exception){}
+                //    }
+                //}
                 if (action.Equals("View"))
                 {
                     try
@@ -296,17 +296,17 @@ namespace DuHair
                         Transaction objTransaction = new Transaction();
 
                         objTransaction.Amount = amount;
-                        objTransaction.Note = txtNote.Text.Trim();
+                        //objTransaction.Note = txtNote.Text.Trim();
                         objTransaction.TransactionDate = DateTime.Now;
-                        objTransaction.Status = 1;
+                        //objTransaction.Status = 1;
                         db.TransactionList.Add(objTransaction);
                         db.TransactionList.Attach(objTransaction);
 
                         Employee objCasher = db.EmployeeList.Where(m => m.EmployeeId == MainForm.currentEmployeeId).FirstOrDefault();
                         objTransaction.Casher = objCasher;
 
-                        Chair objChair = db.ChairList.Where(c => c.ChairId == chairId).FirstOrDefault();
-                        objTransaction.Chair = objChair;
+                        //Chair objChair = db.ChairList.Where(c => c.ChairId == chairId).FirstOrDefault();
+                        //objTransaction.Chair = objChair;
 
                         Customer objCustomer = null;
                         if (customerId != 0)
@@ -335,7 +335,7 @@ namespace DuHair
                             //    commission.SellComMoney = Convert.ToInt32((commission.Service.SellDiscount / 100) * commission.Service.Price);
 
                             commission.Transaction = objTransaction;
-                            objTransaction.Services.Add(objService);
+                            //objTransaction.Services.Add(objService);
                             db.ComissionList.Add(commission);
                             if (db.Entry<Commission>(commission).State == System.Data.Entity.EntityState.Detached)
                                 db.Set<Commission>().Attach(commission);
@@ -357,76 +357,76 @@ namespace DuHair
 
         public void Edit(string action)
         {
-            int customerId = Convert.ToInt16(cbCustomer.EditValue);
-            using (ModelContext db = new ModelContext())
-            {
-                List<Commission> commissionToRemove = db.ComissionList.Where(c => c.Transaction.TransactionId == transactionId).ToList();
-                foreach (var commission in commissionToRemove)
-                {
-                    db.Entry<Commission>(commission).State = System.Data.Entity.EntityState.Deleted;
-                }
-                Transaction objTransaction = db.TransactionList.Where(t => t.TransactionId == transactionId).FirstOrDefault();
-                db.Entry<Transaction>(objTransaction).Collection(t => t.Services).Load();
-                objTransaction.Services.Clear();
-                db.Entry<Transaction>(objTransaction).State = System.Data.Entity.EntityState.Modified;
-                db.SaveChanges();
-            }
-            using (ModelContext db = new ModelContext())
-            {
-                Transaction objTransaction = db.TransactionList.Single(t => t.TransactionId == transactionId);
-                objTransaction.Amount = amount;
-                objTransaction.Note = txtNote.Text.Trim();
-                if (action.Equals("Money"))
-                    objTransaction.Status = 0;
-                if (db.Entry<Transaction>(objTransaction).State == System.Data.Entity.EntityState.Detached)
-                    db.Set<Transaction>().Attach(objTransaction);
-                db.Entry<Transaction>(objTransaction).State = System.Data.Entity.EntityState.Modified;
+            //int customerId = Convert.ToInt16(cbCustomer.EditValue);
+            //using (ModelContext db = new ModelContext())
+            //{
+            //    List<Commission> commissionToRemove = db.ComissionList.Where(c => c.Transaction.TransactionId == transactionId).ToList();
+            //    foreach (var commission in commissionToRemove)
+            //    {
+            //        db.Entry<Commission>(commission).State = System.Data.Entity.EntityState.Deleted;
+            //    }
+            //    Transaction objTransaction = db.TransactionList.Where(t => t.TransactionId == transactionId).FirstOrDefault();
+            //    db.Entry<Transaction>(objTransaction).Collection(t => t.Services).Load();
+            //    objTransaction.Services.Clear();
+            //    db.Entry<Transaction>(objTransaction).State = System.Data.Entity.EntityState.Modified;
+            //    db.SaveChanges();
+            //}
+            //using (ModelContext db = new ModelContext())
+            //{
+            //    Transaction objTransaction = db.TransactionList.Single(t => t.TransactionId == transactionId);
+            //    objTransaction.Amount = amount;
+            //    objTransaction.Note = txtNote.Text.Trim();
+            //    if (action.Equals("Money"))
+            //        objTransaction.Status = 0;
+            //    if (db.Entry<Transaction>(objTransaction).State == System.Data.Entity.EntityState.Detached)
+            //        db.Set<Transaction>().Attach(objTransaction);
+            //    db.Entry<Transaction>(objTransaction).State = System.Data.Entity.EntityState.Modified;
 
-                Chair objChair = db.ChairList.Where(c => c.ChairId == chairId).FirstOrDefault();
-                objTransaction.Chair = objChair;
+            //    Chair objChair = db.ChairList.Where(c => c.ChairId == chairId).FirstOrDefault();
+            //    objTransaction.Chair = objChair;
 
-                Customer objCustomer = null;
-                if (customerId != 0)
-                    objCustomer = db.CustomerList.Where(c => c.CustomerId == customerId).FirstOrDefault();
-                objTransaction.Customer = objCustomer;
+            //    Customer objCustomer = null;
+            //    if (customerId != 0)
+            //        objCustomer = db.CustomerList.Where(c => c.CustomerId == customerId).FirstOrDefault();
+            //    objTransaction.Customer = objCustomer;
 
-                for (int i = 0; i < commissionList.Count(); i++)
-                {
-                    Commission commission = commissionList[i];
-                    Employee objEmployee = db.EmployeeList.Where(m => m.EmployeeId == commission.Employee.EmployeeId).FirstOrDefault();
-                    commission.Employee = objEmployee;
-                    //calculte comMoney for percent discount
-                    if (commission.CommissionPercent != 0)
-                    {
-                        int price = commission.Service.Price;
-                        if (commission.OtherPrice != 0)
-                        {
-                            price = commission.OtherPrice;
-                        }
-                        var comMoney = (commission.CommissionPercent / 100) * price * (commission.Service.Discount / 100);
-                        commission.ComMoney = Convert.ToInt32(comMoney);
-                    }
-                    Service objService = db.ServiceList.Where(s => s.ServiceId == commission.Service.ServiceId).FirstOrDefault();
-                    commission.Service = objService;
+            //    for (int i = 0; i < commissionList.Count(); i++)
+            //    {
+            //        Commission commission = commissionList[i];
+            //        Employee objEmployee = db.EmployeeList.Where(m => m.EmployeeId == commission.Employee.EmployeeId).FirstOrDefault();
+            //        commission.Employee = objEmployee;
+            //        //calculte comMoney for percent discount
+            //        if (commission.CommissionPercent != 0)
+            //        {
+            //            int price = commission.Service.Price;
+            //            if (commission.OtherPrice != 0)
+            //            {
+            //                price = commission.OtherPrice;
+            //            }
+            //            var comMoney = (commission.CommissionPercent / 100) * price * (commission.Service.Discount / 100);
+            //            commission.ComMoney = Convert.ToInt32(comMoney);
+            //        }
+            //        Service objService = db.ServiceList.Where(s => s.ServiceId == commission.Service.ServiceId).FirstOrDefault();
+            //        commission.Service = objService;
 
-                    if (commission.SellComMoney == 100)
-                        commission.SellComMoney = Convert.ToInt32((commission.Service.SellDiscount / 100) * commission.Service.Price);
+            //        if (commission.SellComMoney == 100)
+            //            commission.SellComMoney = Convert.ToInt32((commission.Service.SellDiscount / 100) * commission.Service.Price);
 
-                    commission.Transaction = objTransaction;
-                    objTransaction.Services.Add(objService);
-                    db.ComissionList.Add(commission);
-                    if (db.Entry<Commission>(commission).State == System.Data.Entity.EntityState.Detached)
-                        db.Set<Commission>().Attach(commission);
-                }
-                db.SaveChanges();
-                if (action.Equals("Money"))
-                {
-                    dlLoadCallback(chairId, objTransaction.TransactionId);
-                    dlLoadCallback2();
-                    Print(objTransaction.TransactionDate.ToString("dd/MM/yyyy"));
-                }
-                this.Close();
-            }
+            //        commission.Transaction = objTransaction;
+            //        objTransaction.Services.Add(objService);
+            //        db.ComissionList.Add(commission);
+            //        if (db.Entry<Commission>(commission).State == System.Data.Entity.EntityState.Detached)
+            //            db.Set<Commission>().Attach(commission);
+            //    }
+            //    db.SaveChanges();
+            //    if (action.Equals("Money"))
+            //    {
+            //        dlLoadCallback(chairId, objTransaction.TransactionId);
+            //        dlLoadCallback2();
+            //        Print(objTransaction.TransactionDate.ToString("dd/MM/yyyy"));
+            //    }
+            //    this.Close();
+            //}
         }
 
         public void Print(string pDate)

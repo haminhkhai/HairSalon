@@ -24,6 +24,7 @@ namespace DuHair
         MySecurity sec;
         public LoginForm()
         {
+            
             this.Hide();
             Thread checkThread = new Thread(new ThreadStart(checkScreen.showCheck));
             checkThread.IsBackground = true;
@@ -105,8 +106,9 @@ namespace DuHair
                                                                .Where(e => e.Pwwd.Equals(password)).SingleOrDefault();
                         }
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
+                        string ee = ex.Message;
                     }
 
                     if (employee != null)

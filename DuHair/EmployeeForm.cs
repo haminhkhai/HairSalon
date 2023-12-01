@@ -18,13 +18,18 @@ namespace DuHair
 		public EmployeeForm()
 		{
 			InitializeComponent();
+            if (!MainForm.currentRole.Equals("Admin"))
+            {
+                cbRole.Properties.Items.RemoveAt(1);
+                cbRole.Properties.Items.RemoveAt(1);
+            }
 		}
 
 		protected bool validateData()
 		{
-			if (txtName.Text.Trim().Length < 6)
+			if (txtName.Text.Trim().Length < 3)
 			{
-				lbStatus.Text = "Tên nhân viên phải từ 6 kí tự";
+				lbStatus.Text = "Tên nhân viên phải từ 3 kí tự";
 				txtName.Focus();
 				return false;
 			}
@@ -78,15 +83,27 @@ namespace DuHair
 
 		private void Employee_Load(object sender, EventArgs e)
 		{
-			using (ModelContext db = new ModelContext())
-			{
-				employeeModelBindingSource.DataSource = db.EmployeeList.ToList();
-				
-			}
+            LoadDataEmployee();
 			panel1.Enabled = false;
 			btnSave.Enabled = false;
 			btnCancel.Enabled = false;
 		}
+
+        protected void LoadDataEmployee()
+        {
+            using (ModelContext db = new ModelContext())
+            {
+                var employeeList = db.EmployeeList.ToList();
+                foreach (var employee in employeeList)
+                {
+                    if (!string.IsNullOrEmpty(employee.Username))
+                    {
+                        employee.Pwwd = sec.DeCryptMD5(employee.Pwwd, "remylacroix");
+                    }
+                }
+                employeeModelBindingSource.DataSource = employeeList;
+            }
+        }
 
 		private void btnNew_Click(object sender, EventArgs e)
 		{
@@ -99,9 +116,17 @@ namespace DuHair
 
 		private void btnEdit_Click(object sender, EventArgs e)
 		{
-			CurrentName = txtName.Text.Trim();
-			SwitchControl(true);
-			txtName.Focus();
+            Employee obj = employeeModelBindingSource.Current as Employee;
+            if (obj.Role.Equals("Admin"))
+            {
+                new MyMessage().ErrorDev("Access denied");
+            }
+            else
+            {
+                CurrentName = txtName.Text.Trim();
+                SwitchControl(true);
+                txtName.Focus();
+            }
 		}
 
 		private void btnDelete_Click(object sender, EventArgs e)
@@ -133,7 +158,7 @@ namespace DuHair
 				using (ModelContext db = new ModelContext())
 				{
 					Employee obj = employeeModelBindingSource.Current as Employee;
-					obj.Pwwd = sec.EnCryptMD5(obj.Pwwd, "remylacroix");
+					obj.Pwwd = sec.EnCryptMD5(txtPwwd.Text, "remylacroix");
 					if (obj != null)
 					{
 						if (db.Entry<Employee>(obj).State == System.Data.Entity.EntityState.Detached)

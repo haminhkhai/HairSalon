@@ -85,9 +85,10 @@
             // 
             this.lblId.AutoSize = true;
             this.lblId.Font = new System.Drawing.Font("Tahoma", 14F);
-            this.lblId.Location = new System.Drawing.Point(150, 145);
+            this.lblId.Location = new System.Drawing.Point(100, 99);
+            this.lblId.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(136, 34);
+            this.lblId.Size = new System.Drawing.Size(91, 23);
             this.lblId.TabIndex = 19;
             this.lblId.Text = "BH-00001";
             // 
@@ -95,9 +96,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 14F);
-            this.label7.Location = new System.Drawing.Point(23, 145);
+            this.label7.Location = new System.Drawing.Point(15, 99);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 34);
+            this.label7.Size = new System.Drawing.Size(95, 23);
             this.label7.TabIndex = 18;
             this.label7.Text = "Mã phiếu:";
             // 
@@ -105,9 +107,10 @@
             // 
             this.lblTime.AutoSize = true;
             this.lblTime.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.Location = new System.Drawing.Point(186, 96);
+            this.lblTime.Location = new System.Drawing.Point(124, 66);
+            this.lblTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(96, 39);
+            this.lblTime.Size = new System.Drawing.Size(68, 27);
             this.lblTime.TabIndex = 17;
             this.lblTime.Text = "15:45";
             // 
@@ -115,9 +118,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 96);
+            this.label3.Location = new System.Drawing.Point(15, 66);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 39);
+            this.label3.Size = new System.Drawing.Size(113, 27);
             this.label3.TabIndex = 16;
             this.label3.Text = "Ngày bán:";
             // 
@@ -125,9 +129,10 @@
             // 
             this.lblChair.AutoSize = true;
             this.lblChair.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChair.Location = new System.Drawing.Point(12, 9);
+            this.lblChair.Location = new System.Drawing.Point(8, 6);
+            this.lblChair.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblChair.Name = "lblChair";
-            this.lblChair.Size = new System.Drawing.Size(533, 87);
+            this.lblChair.Size = new System.Drawing.Size(356, 58);
             this.lblChair.TabIndex = 15;
             this.lblChair.Text = "Phiếu bán hàng";
             // 
@@ -136,16 +141,18 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(26, 205);
+            this.label4.Location = new System.Drawing.Point(17, 140);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 27);
+            this.label4.Size = new System.Drawing.Size(80, 18);
             this.label4.TabIndex = 22;
             this.label4.Text = "NV tư vấn:";
             // 
             // materialPopup
             // 
             this.materialPopup.EditValue = "";
-            this.materialPopup.Location = new System.Drawing.Point(147, 281);
+            this.materialPopup.Location = new System.Drawing.Point(98, 192);
+            this.materialPopup.Margin = new System.Windows.Forms.Padding(2);
             this.materialPopup.Name = "materialPopup";
             this.materialPopup.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.materialPopup.Properties.Appearance.Options.UseFont = true;
@@ -153,7 +160,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.materialPopup.Properties.PopupControl = this.materialPopUpControl;
             this.materialPopup.Properties.ValidateOnEnterKey = true;
-            this.materialPopup.Size = new System.Drawing.Size(554, 34);
+            this.materialPopup.Size = new System.Drawing.Size(369, 24);
             this.materialPopup.TabIndex = 3;
             this.materialPopup.QueryResultValue += new DevExpress.XtraEditors.Controls.QueryResultValueEventHandler(this.materialPopup_QueryResultValue);
             this.materialPopup.QueryPopUp += new System.ComponentModel.CancelEventHandler(this.materialPopup_QueryPopUp);
@@ -162,19 +169,22 @@
             // materialPopUpControl
             // 
             this.materialPopUpControl.Controls.Add(this.gvMaterialMainPopup);
-            this.materialPopUpControl.Location = new System.Drawing.Point(147, 650);
+            this.materialPopUpControl.Location = new System.Drawing.Point(98, 445);
+            this.materialPopUpControl.Margin = new System.Windows.Forms.Padding(2);
             this.materialPopUpControl.Name = "materialPopUpControl";
-            this.materialPopUpControl.Size = new System.Drawing.Size(554, 336);
+            this.materialPopUpControl.Size = new System.Drawing.Size(369, 230);
             this.materialPopUpControl.TabIndex = 26;
             // 
             // gvMaterialMainPopup
             // 
             this.gvMaterialMainPopup.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gvMaterialMainPopup.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(2);
             this.gvMaterialMainPopup.Location = new System.Drawing.Point(0, 0);
             this.gvMaterialMainPopup.MainView = this.gvMaterialPopup;
-            this.gvMaterialMainPopup.MinimumSize = new System.Drawing.Size(400, 349);
+            this.gvMaterialMainPopup.Margin = new System.Windows.Forms.Padding(2);
+            this.gvMaterialMainPopup.MinimumSize = new System.Drawing.Size(267, 239);
             this.gvMaterialMainPopup.Name = "gvMaterialMainPopup";
-            this.gvMaterialMainPopup.Size = new System.Drawing.Size(554, 349);
+            this.gvMaterialMainPopup.Size = new System.Drawing.Size(369, 239);
             this.gvMaterialMainPopup.TabIndex = 1;
             this.gvMaterialMainPopup.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvMaterialPopup});
@@ -226,19 +236,22 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 284);
+            this.label1.Location = new System.Drawing.Point(17, 194);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 27);
+            this.label1.Size = new System.Drawing.Size(79, 18);
             this.label1.TabIndex = 27;
             this.label1.Text = "Sản phẩm:";
             // 
             // gvMaterialMain
             // 
-            this.gvMaterialMain.Location = new System.Drawing.Point(147, 322);
+            this.gvMaterialMain.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(2);
+            this.gvMaterialMain.Location = new System.Drawing.Point(98, 220);
             this.gvMaterialMain.MainView = this.gvMaterial;
-            this.gvMaterialMain.MinimumSize = new System.Drawing.Size(400, 180);
+            this.gvMaterialMain.Margin = new System.Windows.Forms.Padding(2);
+            this.gvMaterialMain.MinimumSize = new System.Drawing.Size(267, 123);
             this.gvMaterialMain.Name = "gvMaterialMain";
-            this.gvMaterialMain.Size = new System.Drawing.Size(554, 205);
+            this.gvMaterialMain.Size = new System.Drawing.Size(369, 140);
             this.gvMaterialMain.TabIndex = 4;
             this.gvMaterialMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvMaterial});
@@ -334,7 +347,8 @@
             // cbEmployee
             // 
             this.cbEmployee.EditValue = "";
-            this.cbEmployee.Location = new System.Drawing.Point(147, 202);
+            this.cbEmployee.Location = new System.Drawing.Point(98, 138);
+            this.cbEmployee.Margin = new System.Windows.Forms.Padding(2);
             this.cbEmployee.Name = "cbEmployee";
             this.cbEmployee.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbEmployee.Properties.Appearance.Options.UseFont = true;
@@ -346,7 +360,7 @@
             this.cbEmployee.Properties.PopupSizeable = false;
             this.cbEmployee.Properties.ValueMember = "EmployeeId";
             this.cbEmployee.Properties.View = this.gridView1;
-            this.cbEmployee.Size = new System.Drawing.Size(554, 34);
+            this.cbEmployee.Size = new System.Drawing.Size(369, 24);
             this.cbEmployee.TabIndex = 1;
             // 
             // gridView1
@@ -378,9 +392,10 @@
             // btnMoney
             // 
             this.btnMoney.Image = ((System.Drawing.Image)(resources.GetObject("btnMoney.Image")));
-            this.btnMoney.Location = new System.Drawing.Point(372, 668);
+            this.btnMoney.Location = new System.Drawing.Point(248, 457);
+            this.btnMoney.Margin = new System.Windows.Forms.Padding(2);
             this.btnMoney.Name = "btnMoney";
-            this.btnMoney.Size = new System.Drawing.Size(201, 39);
+            this.btnMoney.Size = new System.Drawing.Size(134, 27);
             this.btnMoney.TabIndex = 5;
             this.btnMoney.Text = "Tính tiền && in hóa đơn";
             this.btnMoney.Click += new System.EventHandler(this.btnMoney_Click);
@@ -389,9 +404,10 @@
             // 
             this.lblAmount.AutoSize = true;
             this.lblAmount.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAmount.Location = new System.Drawing.Point(21, 550);
+            this.lblAmount.Location = new System.Drawing.Point(14, 376);
+            this.lblAmount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(301, 58);
+            this.lblAmount.Size = new System.Drawing.Size(199, 39);
             this.lblAmount.TabIndex = 32;
             this.lblAmount.Text = "Tổng: 0 VNĐ";
             // 
@@ -399,9 +415,10 @@
             // 
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.Location = new System.Drawing.Point(579, 668);
+            this.btnClose.Location = new System.Drawing.Point(386, 457);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(122, 39);
+            this.btnClose.Size = new System.Drawing.Size(81, 27);
             this.btnClose.TabIndex = 6;
             this.btnClose.Text = "Đóng";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -411,16 +428,18 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 244);
+            this.label2.Location = new System.Drawing.Point(41, 167);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 27);
+            this.label2.Size = new System.Drawing.Size(53, 18);
             this.label2.TabIndex = 34;
             this.label2.Text = "Khách:";
             // 
             // cbCustomer
             // 
             this.cbCustomer.EditValue = "";
-            this.cbCustomer.Location = new System.Drawing.Point(147, 241);
+            this.cbCustomer.Location = new System.Drawing.Point(98, 165);
+            this.cbCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.cbCustomer.Name = "cbCustomer";
             this.cbCustomer.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbCustomer.Properties.Appearance.Options.UseFont = true;
@@ -432,7 +451,7 @@
             this.cbCustomer.Properties.PopupSizeable = false;
             this.cbCustomer.Properties.ValueMember = "CustomerId";
             this.cbCustomer.Properties.View = this.searchLookUpEdit1View;
-            this.cbCustomer.Size = new System.Drawing.Size(554, 34);
+            this.cbCustomer.Size = new System.Drawing.Size(369, 24);
             this.cbCustomer.TabIndex = 2;
             // 
             // searchLookUpEdit1View
@@ -478,9 +497,10 @@
             this.lbStatus.Appearance.ForeColor = System.Drawing.Color.Red;
             this.lbStatus.Appearance.Image = global::DuHair.Properties.Resources.busy;
             this.lbStatus.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.lbStatus.Location = new System.Drawing.Point(32, 623);
+            this.lbStatus.Location = new System.Drawing.Point(21, 426);
+            this.lbStatus.Margin = new System.Windows.Forms.Padding(2);
             this.lbStatus.Name = "lbStatus";
-            this.lbStatus.Size = new System.Drawing.Size(221, 22);
+            this.lbStatus.Size = new System.Drawing.Size(161, 20);
             this.lbStatus.TabIndex = 37;
             this.lbStatus.Text = "(*) Không được bỏ trống";
             // 
@@ -488,9 +508,10 @@
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl2.Appearance.ForeColor = System.Drawing.Color.Red;
-            this.labelControl2.Location = new System.Drawing.Point(706, 286);
+            this.labelControl2.Location = new System.Drawing.Point(471, 196);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(2);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(11, 24);
+            this.labelControl2.Size = new System.Drawing.Size(8, 16);
             this.labelControl2.TabIndex = 38;
             this.labelControl2.Text = "*";
             // 
@@ -498,9 +519,10 @@
             // 
             this.lbEmployeeName.AutoSize = true;
             this.lbEmployeeName.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEmployeeName.Location = new System.Drawing.Point(432, 145);
+            this.lbEmployeeName.Location = new System.Drawing.Point(288, 99);
+            this.lbEmployeeName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbEmployeeName.Name = "lbEmployeeName";
-            this.lbEmployeeName.Size = new System.Drawing.Size(180, 34);
+            this.lbEmployeeName.Size = new System.Drawing.Size(122, 23);
             this.lbEmployeeName.TabIndex = 42;
             this.lbEmployeeName.Text = "Hà Minh Khải";
             this.lbEmployeeName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -509,10 +531,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(295, 145);
+            this.label5.Location = new System.Drawing.Point(197, 99);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(144, 34);
+            this.label5.Size = new System.Drawing.Size(99, 23);
             this.label5.TabIndex = 41;
             this.label5.Text = "Thu ngân:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -520,10 +543,10 @@
             // SellTranForm
             // 
             this.AcceptButton = this.btnMoney;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClose;
-            this.ClientSize = new System.Drawing.Size(724, 723);
+            this.ClientSize = new System.Drawing.Size(483, 495);
             this.Controls.Add(this.lbEmployeeName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.labelControl2);
@@ -545,6 +568,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblChair);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SellTranForm";

@@ -10,10 +10,6 @@ namespace DuHair
 {
     class Employee 
     {
-        public Employee()
-        {
-            this.Transactions = new HashSet<Transaction>();
-        }
         [Key]
         public int EmployeeId { get; set; }
         public string Username { get; set; }
@@ -26,8 +22,7 @@ namespace DuHair
         public string Status { get; set; }
         public string Sex { get; set; }
         public string Role { get; set; }
-        public string ImageUrl { get; set; }
-        public virtual ICollection<Transaction> Transactions { get; set; }
+        public virtual ICollection<TransactionEmployee> TransactionEmployees { get; set; }
     }
 
     class EmployeeTimeKeepingView
@@ -38,5 +33,13 @@ namespace DuHair
         public float WorkedDay { get; set; }
         public float Overtime { get; set; }
         public int RealWage { get; set; }
+    }
+
+    public class EmployeeHomeView
+    {
+        public int EmployeeId { get; set; }
+        public string Name { get; set; }
+        public bool Selected { get; set; }
+        public int DiscountMoney { get; set; }
     }
 }

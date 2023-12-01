@@ -186,3 +186,806 @@ C:\Working (2nd attemp)\DuhairProject 26\DuhairProject\DuHair\obj\Debug\DuHair.c
 C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DuHair.exe.config
 C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.exe
 C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\rpSellBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\rpBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DuHair.exe
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.BonusSkins.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\EntityFramework.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.CSharp.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Data.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Deployment.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Drawing.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Web.Services.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Windows.Forms.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Xml.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\System.Xml.Linq.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\EntityFramework.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.xml
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.csprojResolveAssemblyReference.cache
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.AddServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.ChangePwwwdForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.CheckForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.CustomerForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.EmployeeForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.SellTranForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.Form1.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.HomeForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.LoginForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.MainForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.MaterialForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.Properties.Resources.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.RestockAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.RestockForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.ServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.SpendNoteForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.StatisticForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.TimeKeepingForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.TkDetailAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseCheckAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseForm.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.csproj.GenerateResource.Cache
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.exe.licenses
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\RdlCompile.cache
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\RdlCompile.compiled
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm2.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.allIn.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.addPrice2.resources
+C:\Working (2nd attemp)\DuhairProject 29\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.DropThings.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.config
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpSellBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.BonusSkins.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.CSharp.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Deployment.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Drawing.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Web.Services.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Windows.Forms.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.Linq.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csprojResolveAssemblyReference.cache
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.AddServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ChangePwwwdForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CheckForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CustomerForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.EmployeeForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SellTranForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Form1.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.HomeForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.LoginForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MainForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MaterialForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Properties.Resources.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SpendNoteForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.StatisticForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TimeKeepingForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TkDetailAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm2.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseCheckAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseForm.resources
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csproj.GenerateResource.Cache
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.licenses
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\RdlCompile.cache
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\RdlCompile.compiled
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.all.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.config
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpSellBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.BonusSkins.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.CSharp.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Deployment.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Drawing.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Web.Services.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Windows.Forms.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.Linq.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.xml
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csprojResolveAssemblyReference.cache
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.AddServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ChangePwwwdForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CheckForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CustomerForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.EmployeeForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SellTranForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Form1.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.HomeForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.LoginForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MainForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MaterialForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Properties.Resources.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SpendNoteForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.StatisticForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TimeKeepingForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TkDetailAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm2.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseCheckAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseForm.resources
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csproj.GenerateResource.Cache
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.licenses
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\RdlCompile.cache
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\RdlCompile.compiled
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 6-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.addIsDelete.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.config
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpSellBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpBill.rdlc
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.pdb
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.BonusSkins.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.CSharp.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Deployment.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Drawing.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Web.Services.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Windows.Forms.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.Linq.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.xml
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csprojResolveAssemblyReference.cache
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.AddServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ChangePwwwdForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CheckForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CustomerForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.EmployeeForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SellTranForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Form1.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.HomeForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.LoginForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MainForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MaterialForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Properties.Resources.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ServiceForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SpendNoteForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.StatisticForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TimeKeepingForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TkDetailAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm2.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseCheckAddEdit.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseForm.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csproj.GenerateResource.Cache
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.licenses
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\RdlCompile.cache
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\RdlCompile.compiled
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.manifest
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.application
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.Order.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.things.resources
+C:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.AddIsPaidWithCash.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpSellBill.rdlc
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\rpBill.rdlc
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.config
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe.manifest
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.application
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.exe
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DuHair.pdb
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.BonusSkins.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.CSharp.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Design.DLL
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.DataSetExtensions.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Data.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Deployment.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Drawing.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Web.Services.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Windows.Forms.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\System.Xml.Linq.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraTreeList.v14.2.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EnvDTE.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EnvDTE80.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Office.v14.2.Core.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\stdole.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\Microsoft.MSXML.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.XtraTreeList.v14.2.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\DevExpress.Office.v14.2.Core.xml
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.AddServiceForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ChangePwwwdForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CheckForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.CustomerForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.EmployeeForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.Order.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.things.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.AddIsPaidWithCash.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SellTranForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.HomeForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.LoginForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MainForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.MaterialForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.Properties.Resources.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockAddEdit.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.RestockForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.ServiceForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.SpendNoteForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.StatisticForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TimeKeepingForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TkDetailAddEdit.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm2.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseCheckAddEdit.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseForm.resources
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csproj.GenerateResource.cache
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.licenses
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csproj.CoreCompileInputs.cache
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe.manifest
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.application
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.csproj.CopyComplete
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.exe
+E:\Working (2nd attemp)\DuhairProject 7-6\DuhairProject 04\DuhairProject\DuHair\obj\Debug\DuHair.pdb
+D:\DuhairProject\DuHair\obj\Debug\DuHair.csproj.AssemblyReference.cache
+D:\DuhairProject\DuHair\obj\Debug\DuHair.AddServiceForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.ChangePwwwdForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.CheckForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.CustomerForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.EmployeeForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.Order.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.things.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.Migrations.AddIsPaidWithCash.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.SellTranForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.HomeForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.LoginForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.MainForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.MaterialForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.Properties.Resources.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.RestockAddEdit.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.RestockForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.ServiceForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.SpendNoteForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.StatisticForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.TimeKeepingForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.TkDetailAddEdit.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm2.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.TransactionForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseCheckAddEdit.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.WarehouseForm.resources
+D:\DuhairProject\DuHair\obj\Debug\DuHair.csproj.GenerateResource.cache
+D:\DuhairProject\DuHair\obj\Debug\DuHair.exe.licenses
+D:\DuhairProject\DuHair\obj\Debug\DuHair.exe
+D:\DuhairProject\DuHair\obj\Debug\DuHair.pdb
+D:\DuhairProject\DuHair\obj\Debug\DuHair.csproj.CoreCompileInputs.cache
+D:\DuhairProject\DuHair\bin\Debug\rpSellBill.rdlc
+D:\DuhairProject\DuHair\bin\Debug\rpBill.rdlc
+D:\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+D:\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+D:\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+D:\DuhairProject\DuHair\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+D:\DuhairProject\DuHair\bin\Debug\DuHair.exe.config
+D:\DuhairProject\DuHair\bin\Debug\DuHair.exe.manifest
+D:\DuhairProject\DuHair\bin\Debug\DuHair.application
+D:\DuhairProject\DuHair\bin\Debug\DuHair.exe
+D:\DuhairProject\DuHair\bin\Debug\DuHair.pdb
+D:\DuhairProject\DuHair\bin\Debug\EntityFramework.dll
+D:\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.CSharp.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.Design.DLL
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DuhairProject\DuHair\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Data.DataSetExtensions.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Data.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Deployment.dll
+D:\DuhairProject\DuHair\bin\Debug\System.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Drawing.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Web.Services.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Windows.Forms.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Xml.dll
+D:\DuhairProject\DuHair\bin\Debug\System.Xml.Linq.dll
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.XtraTreeList.v14.2.dll
+D:\DuhairProject\DuHair\bin\Debug\EnvDTE.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\DuhairProject\DuHair\bin\Debug\EnvDTE80.dll
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.Office.v14.2.Core.dll
+D:\DuhairProject\DuHair\bin\Debug\stdole.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\DuhairProject\DuHair\bin\Debug\VSLangProj.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\DuhairProject\DuHair\bin\Debug\VSLangProj80.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.MSXML.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+D:\DuhairProject\DuHair\bin\Debug\VSLangProj2.dll
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.Data.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.Utils.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.XtraBars.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\EntityFramework.xml
+D:\DuhairProject\DuHair\bin\Debug\EntityFramework.SqlServer.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.XtraTreeList.v14.2.xml
+D:\DuhairProject\DuHair\bin\Debug\DevExpress.Office.v14.2.Core.xml
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+D:\DuhairProject\DuHair\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+D:\DuhairProject\DuHair\obj\Debug\DuHair.exe.manifest
+D:\DuhairProject\DuHair\obj\Debug\DuHair.application
+D:\DuhairProject\DuHair\obj\Debug\DuHair.csproj.CopyComplete

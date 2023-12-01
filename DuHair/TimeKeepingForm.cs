@@ -29,7 +29,7 @@ namespace DuHair
         {
             using (ModelContext db = new ModelContext())
             {
-                List<TimeKeepingView> TkList = new List<TimeKeepingView>();
+                //List<TimeKeepingView> TkList = new List<TimeKeepingView>();
                 var result = from t in db.TkDetailList
                              group t by new { t.TimeKeeping.MonthAndYear, t.TimeKeeping.WorkingDay, t.TimeKeeping.TimeKeepingId } into g
                              orderby g.Key.TimeKeepingId descending

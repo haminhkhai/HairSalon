@@ -16,13 +16,13 @@ namespace DuHair
     public partial class MainForm : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         HomeForm homeForm;
-        string role, oldPwwwd = "";
+        string oldPwwwd = "";
         public static int currentEmployeeId;
-        public static string currentEmployeeName;
+        public static string currentEmployeeName, currentRole;
         public MainForm(string role, string oldPwwwd, int employeeId, string employeeName)
         {
             InitializeComponent();
-            this.role = role;
+            currentRole = role;
             this.oldPwwwd = oldPwwwd;
             currentEmployeeId = employeeId;
             currentEmployeeName = employeeName;
@@ -38,15 +38,15 @@ namespace DuHair
 
         protected void RoleManage()
         {
-            if (role.Equals("Thu ngân"))
+            if (currentRole.Equals("Thu ngân"))
             {
                 this.Invoke((Action)(() =>
                 {
-                    btnEmployee.Visibility = BarItemVisibility.Never;
+                    //btnEmployee.Visibility = BarItemVisibility.Never;
                     btnStock.Visibility = BarItemVisibility.Never;
                     btnRestock.Visibility = BarItemVisibility.Never;
                     btnSpend.Visibility = BarItemVisibility.Never;
-                    btnStatistic.Visibility = BarItemVisibility.Never;
+                    //btnStatistic.Visibility = BarItemVisibility.Never;
                     btnTimeKeeping.Visibility = BarItemVisibility.Never;
                 }));
             }
@@ -255,7 +255,7 @@ namespace DuHair
             Thread thread = new Thread(new ThreadStart((Action)(() =>
             {
                 SellTranForm st = new SellTranForm(0);
-                st.dlLoadCallback = homeForm.loadDataSellTransaction;
+                st.dlLoadCallback = homeForm.LoadDataSellTransaction;
                 this.Invoke((Action)(() =>
                 {
                     st.ShowDialog();

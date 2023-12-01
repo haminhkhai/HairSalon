@@ -16,12 +16,8 @@ namespace DuHair
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            //DevExpress.Skins.SkinManager.EnableFormSkins();
-            //DevExpress.UserSkins.BonusSkins.Register();
-            //UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
-
-            Application.Run(new MainForm("Admin", "tanphat", 1, "Tấn Phát"));
-           // Application.Run(new LoginForm());
+            //Application.Run(new MainForm("Thu ngân", "tanphat", 1, "Tấn Phát"));
+            Application.Run(new LoginForm());
         }
     }
 }

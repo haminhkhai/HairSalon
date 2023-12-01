@@ -43,8 +43,7 @@ namespace DuHair
                              select (new TransactionStatisticView {
                                                                     TransactionId = t.TransactionId, 
                                                                     Name = t.Customer.Name,
-                                                                    ChairId = t.Chair.ChairId,
-                                                                    ChairName = t.Chair.Name,
+                                                                    IsPaidWithCash = t.IsPaidWithCash,
                                                                     TransactionDate = t.TransactionDate, 
                                                                     Amount = t.Amount });
                 List<TransactionStatisticView> transactionStatisticViewList = new List<TransactionStatisticView>();
@@ -103,20 +102,20 @@ namespace DuHair
             dtIncomeSpend = new DataTable("dtIncomeSpend");
             dtIncomeSpend.Columns.Add("KeyColumn", typeof(string));
             dtIncomeSpend.Columns.Add("Income", typeof(int));
-            dtIncomeSpend.Columns.Add("Spend", typeof(string));
+            dtIncomeSpend.Columns.Add("Spend", typeof(int));
             dtIncomeSpend.Columns.Add("Profit", typeof(int));
-            dtIncomeSpend.Columns.Add("Time", typeof(DateTime));
+            //dtIncomeSpend.Columns.Add("Time", typeof(DateTime));
 
             dtIncome = new DataTable("dtIncome");
             dtIncome.Columns.Add("KeyColumn", typeof(string));
             dtIncome.Columns.Add("IncomeName", typeof(string));
-            dtIncome.Columns.Add("Total", typeof(int));
+            dtIncome.Columns.Add("Amount", typeof(int));
             dtIncome.Columns.Add("IncomeTime", typeof(DateTime));
 
             dtSpend = new DataTable("dtSpend");
             dtSpend.Columns.Add("KeyColumn", typeof(string));
             dtSpend.Columns.Add("SpendName", typeof(string));
-            dtSpend.Columns.Add("Total", typeof(int));
+            dtSpend.Columns.Add("Amount", typeof(int));
             dtSpend.Columns.Add("SpendTime", typeof(DateTime));
 
             DataSet ds = new DataSet();
@@ -145,35 +144,120 @@ namespace DuHair
             initDatatableIncomeSpend();
             DateTime fromDate = (DateTime)txtFrom.EditValue;
             DateTime toDate = (DateTime)txtTo.EditValue;
-            fromDate = new DateTime(fromDate.Year, fromDate.Month, fromDate.Day, 0, 0, 1);
+            fromDate = new DateTime(fromDate.Year, fromDate.Month, fromDate.Day, 0, 0, 0);
             toDate = new DateTime(toDate.Year, toDate.Month, toDate.Day, 23, 59, 59);
             using (ModelContext db = new ModelContext())
             {
-                var ImcomeTransaction = (from t in db.TransactionList
-                             where (t.TransactionDate >= fromDate && t.TransactionDate <= toDate)
-                             group t by 1 into g
-                             select new { 
-                                KeyColumn = "thuchi",
-                                SumAmount = g.Sum(x => x.Amount)
-                             }).ToList();
+                var IncomeTransaction = (from t in db.TransactionList
+                                         where (t.TransactionDate >= fromDate && t.TransactionDate <= toDate)
+                                         group t by 1 into g
+                                         select new
+                                         {
+                                             KeyColumn = "thuchi",
+                                             SumAmount = g.Sum(x => x.Amount)
+                                         }).ToList();
                 var IncomeSell = (from s in db.SellTranList
-                                 where (s.SellDate >= fromDate && s.SellDate <= toDate)
+                                  where (s.SellDate >= fromDate && s.SellDate <= toDate)
+                                  group s by 1 into g
+                                  select new
+                                  {
+                                      KeyColumn = "thuchi",
+                                      SumSellAmount = g.Sum(x => x.Amount)
+                                  }).ToList();
+                var SpendNote = (from s in db.SpendNoteList
+                                 where (s.SpendDate >= fromDate && s.SpendDate <= toDate)
                                  group s by 1 into g
                                  select new
                                  {
                                      KeyColumn = "thuchi",
-                                     SumSellAmount = g.Sum(x => x.Amount)
+                                     SumSpendNote = g.Sum(x => x.AmountMoney)
                                  }).ToList();
-                var Income = (from t in ImcomeTransaction
+                var SpendTransactionCommission = (from s in db.TransactionEmployeeList
+                                                  where (s.Transaction.TransactionDate >= fromDate && s.Transaction.TransactionDate <= toDate)
+                                                  group s by 1 into g
+                                                  select new
+                                                  {
+                                                      KeyColumn = "thuchi",
+                                                      SumTransactionCommission = g.Sum(x => x.DiscountMoney)
+                                                  }).ToList();
+                var SpendTransactionSell = (from s in db.SellTranDetailList
+                                           where (s.SellTran.SellDate >= fromDate && s.SellTran.SellDate <= toDate)
+                                           group s by 1 into g
+                                           select new 
+                                           {
+                                               KeyColumn = "thuchi",
+                                               SumTransactionSellCommission = g.Sum(x => x.SellComMoney)
+                                           }).ToList();
+
+                var Income = (from t in IncomeTransaction
                              join s in IncomeSell on t.KeyColumn equals s.KeyColumn into lj
                              from g in lj.DefaultIfEmpty()
                              select new
                              {
                                 KeyColumn = "thuchi",
-                                Total = t.SumAmount + (g == null ? 0 : g.SumSellAmount)
+                                TotalIncome = t.SumAmount + (g == null ? 0 : g.SumSellAmount)
                              }).ToList();
-
-                            
+                var Spend = (from t in SpendTransactionCommission
+                             join s in SpendNote on t.KeyColumn equals s.KeyColumn into lj
+                             from x in lj.DefaultIfEmpty()
+                             join e in SpendTransactionSell on t.KeyColumn equals e.KeyColumn into lj2
+                             from y in lj2.DefaultIfEmpty()
+                             select new { 
+                                KeyColumn = "thuchi",
+                                TotalSpend = t.SumTransactionCommission + (x == null ? 0 : x.SumSpendNote) + (y == null ? 0 : y.SumTransactionSellCommission)
+                             }).ToList();
+                var IncomeAndSpend = (from i in Income
+                                     join s in Spend on i.KeyColumn equals s.KeyColumn into lj
+                                     from g in lj.DefaultIfEmpty()
+                                     select new
+                                     {
+                                         KeyColumn = "thuchi",
+                                         Income = i.TotalIncome,
+                                         Spend = g == null ? 0 : g.TotalSpend,
+                                         Profit = i.TotalIncome - (g == null ? 0 : g.TotalSpend)
+                                     }).ToList();
+                foreach (var item in IncomeAndSpend)
+                {
+                    dtIncomeSpend.Rows.Add(new object[]{
+                        item.KeyColumn,
+                        item.Income,
+                        item.Spend,
+                        item.Profit
+                    });
+                }
+                var transactionList = db.TransactionList.Where(t => t.TransactionDate >= fromDate && t.TransactionDate <= toDate).ToList();
+                var sellTranList = db.SellTranList.Where(t => t.SellDate >= fromDate && t.SellDate <= toDate).ToList();
+                var transactionEmployeeList = db.TransactionEmployeeList.Include("Transaction")
+                                              .Where(t => t.Transaction.TransactionDate >= fromDate && t.Transaction.TransactionDate <= toDate).ToList();
+                var sellTranDetailList = db.SellTranDetailList.Where(s => s.SellTran.SellDate >= fromDate && s.SellTran.SellDate <= toDate).ToList();
+                var spendNoteList = db.SpendNoteList.Where(t => t.SpendDate >= fromDate && t.SpendDate <= toDate).ToList();
+                foreach (var item in transactionList)
+                {
+                    dtIncome.Rows.Add(new object[]{
+                        "thuchi",
+                        string.Format("GD-{0:D5}", item.TransactionId),
+                        item.Amount,
+                        item.TransactionDate
+                    });
+                }
+                foreach (var item in sellTranList)
+                {
+                    dtIncome.Rows.Add(new object[]{
+                        "thuchi",
+                        string.Format("BH-{0:D5}", item.SellTranId),
+                        item.Amount,
+                        item.SellDate
+                    });
+                }
+                foreach (var item in transactionEmployeeList)
+                {
+                    dtSpend.Rows.Add(new object[]{
+                        "thuchi",
+                        item.TransactionId,
+                        item.DiscountMoney,
+                        item.Transaction.TransactionDate
+                    });
+                }
             }
         }
 
@@ -189,17 +273,14 @@ namespace DuHair
                 //get employee list
                 List<Employee> employeeList = db.EmployeeList.ToList();    
                 //get service comissions (làm, tư vấn) of employee
-                var commissions = (from c in db.ComissionList   
+                var commissions = (from c in db.TransactionEmployeeList 
                                   where (c.Transaction.TransactionDate >= fromDate && c.Transaction.TransactionDate <= toDate)
-                                  group c by new { c.Employee.EmployeeId, c.Service.Name} into g
+                                  group c by new { c.Employee.EmployeeId, c.TransactionId} into g
                                   select new
                                   {
+                                      g.Key.TransactionId,
                                       g.Key.EmployeeId,
-                                      g.Key.Name,
-                                      sumComMoney = g.Sum(x => x.ComMoney),
-                                      countMakeTimes = g.Where(x => x.ComType.Equals("Make")).Count(),
-                                      sumSellComMoney = g.Sum(x => x.SellComMoney),
-                                      countSellTimes = g.Where(x => x.ComType.Equals("Sell")).Count()
+                                      sumComMoney = g.Sum(x => x.DiscountMoney)
                                   }).ToList();
                 //get sell commission (bán sản phẩm) of employee
                 var sellComs = (from s in db.SellTranList
@@ -227,8 +308,7 @@ namespace DuHair
                                            g2.Key.Tel,
                                            g2.Key.Role,
                                            g2.Key.Status,
-                                           TotalTranComMoney = g2.Sum(x => (x.g == null ? 0 : x.g.sumComMoney)),
-                                           TotalTranSellCom = g2.Sum(x => (x.g == null ? 0 : x.g.sumSellComMoney))
+                                           TotalTranComMoney = g2.Sum(x => (x.g == null ? 0 : x.g.sumComMoney))
                                        }).ToList();
                 // merge employee with sell commissions (commissions can be null)
                 var employeeWithSellCom = (from e in employeeList
@@ -252,8 +332,8 @@ namespace DuHair
                                            c.Tel, 
                                            c.Role,
                                            c.Status,
-                                           TotalCom = ((g==null) ? 0 : g.TotalSellCom) + c.TotalTranComMoney + c.TotalTranSellCom,
-                                           RealWage = ((g == null) ? 0 : g.TotalSellCom) + c.TotalTranComMoney + c.TotalTranSellCom + c.Wage
+                                           TotalCom = ((g==null) ? 0 : g.TotalSellCom) + c.TotalTranComMoney,
+                                           RealWage = ((g == null) ? 0 : g.TotalSellCom) + c.TotalTranComMoney + c.Wage
                                        }).ToList();
                 //add to datatable
                 foreach (var employee in employeeTotalCom)
@@ -272,11 +352,9 @@ namespace DuHair
                 foreach (var com in commissions)
                 {
                     dtCommission.Rows.Add(new object[]{
-                        com.Name,
+                        com.TransactionId,
+                        string.Format("GD-{0:D5}", com.TransactionId),
                         com.sumComMoney,
-                        com.countMakeTimes,
-                        com.sumSellComMoney,
-                        com.countSellTimes,
                         com.EmployeeId
                     });
                 }
@@ -306,11 +384,9 @@ namespace DuHair
             dtEmployee.Columns.Add("RealWage", typeof(int));
 
             dtCommission = new DataTable("dtDetail");
-            dtCommission.Columns.Add("Name", typeof(string));
-            dtCommission.Columns.Add("ComMoney", typeof(int));
-            dtCommission.Columns.Add("MakeTimes", typeof(int));
-            dtCommission.Columns.Add("SellComMoney", typeof(int));
-            dtCommission.Columns.Add("SellTimes", typeof(int));
+            dtCommission.Columns.Add("TransactionId", typeof(int));
+            dtCommission.Columns.Add("TransactionIdCoded", typeof(string));
+            dtCommission.Columns.Add("DiscountMoney", typeof(int));
             dtCommission.Columns.Add("EmployeeId", typeof(int));
 
             dtSellCom = new DataTable("dtDetail2");
@@ -335,7 +411,8 @@ namespace DuHair
             gvMain.MainView = gvEmployeeCom;
             gvMain.DataSource = ds.Tables["dtMaster"];
             gvMain.ForceInitialize();
-            
+
+            gvComDetail.Appearance.ViewCaption.Font = new Font("Tahoma", 12F);
             gvComDetail.ViewCaption = "Làm dịch vụ";
             gvSellComDetail.ViewCaption = "Bán sản phẩm";
         }
@@ -354,35 +431,39 @@ namespace DuHair
 
         private void cbStatisticType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //set the txtTo value to the first day of month
-            //set the txtTo value to the last day of month
-            if (cbStatisticType.SelectedIndex == 3)
-            {
-                //txtFrom.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.YearView;
-                //txtTo.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.YearView;
-                //int currentMonth = DateTime.Now.Month;
-                //int currentYear = DateTime.Now.Year;
-                //txtFrom.EditValue = new DateTime(currentYear, currentMonth, 1, 0, 0, 0);
-                //txtTo.EditValue = new DateTime(currentYear, currentMonth, DateTime.DaysInMonth(currentYear, currentMonth), 0, 0, 0);
-            }
-            else
-            {
-                txtFrom.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.All;
-                txtTo.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.All;
-                txtFrom.EditValue = DateTime.Now;
-                txtTo.EditValue = DateTime.Now;
-            }
+            ////set the txtTo value to the first day of month
+            ////set the txtTo value to the last day of month
+            //if (cbStatisticType.SelectedIndex == 3)
+            //{
+            //    txtFrom.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.YearView;
+            //    txtTo.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.YearView;
+            //    int currentMonth = DateTime.Now.Month;
+            //    int currentYear = DateTime.Now.Year;
+            //    txtFrom.EditValue = new DateTime(currentYear, currentMonth, 1, 0, 0, 0);
+            //    txtTo.EditValue = new DateTime(currentYear, currentMonth, DateTime.DaysInMonth(currentYear, currentMonth), 0, 0, 0);
+            //    txtFrom.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            //    txtTo.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            //}
+            //else
+            //{
+            //    txtFrom.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.All;
+            //    txtTo.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.All;
+            //    txtFrom.EditValue = DateTime.Now;
+            //    txtTo.EditValue = DateTime.Now;
+            //    txtFrom.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+            //    txtTo.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+            //}
         }
 
         private void txtTo_EditValueChanged(object sender, EventArgs e)
         {
             //set the txtTo value to the last day of month
-            if (cbStatisticType.SelectedIndex == 3)
-            {
-                int currentMonth = Convert.ToDateTime(txtTo.EditValue).Month;
-                int currentYear = Convert.ToDateTime(txtTo.EditValue).Year;
-                txtTo.EditValue = new DateTime(currentYear, currentMonth, DateTime.DaysInMonth(currentYear, currentMonth), 23, 59, 59);
-            }
+            //if (cbStatisticType.SelectedIndex == 3)
+            //{
+            //    int currentMonth = Convert.ToDateTime(txtTo.EditValue).Month;
+            //    int currentYear = Convert.ToDateTime(txtTo.EditValue).Year;
+            //    txtTo.EditValue = new DateTime(currentYear, currentMonth, DateTime.DaysInMonth(currentYear, currentMonth), 23, 59, 59);
+            //}
         }
 
         private void gvEmployeeCom_DoubleClick(object sender, EventArgs e)
@@ -422,15 +503,21 @@ namespace DuHair
                     if (gridView.Name.Equals("gvTransaction"))
                     {
                         int TransactionId = Convert.ToInt16(gvTransaction.GetRowCellValue(info.RowHandle, "TransactionId"));
-                        int ChairId = Convert.ToInt16(gvTransaction.GetRowCellValue(info.RowHandle, "ChairId"));
-                        TransactionForm tf = new TransactionForm(TransactionId, ChairId, "View");
-                        tf.ShowDialog();
+                        TransactionForm2 tf2 = new TransactionForm2(TransactionId, new List<EmployeeHomeView>(), new List<ServiceView>());
+                        tf2.ShowDialog();
                     }
                     else if (gridView.Name.Equals("gvSellTran"))
                     {
                         int SellTranId = Convert.ToInt32(gvSellTran.GetRowCellValue(info.RowHandle, "SellTranId"));
                         SellTranForm st = new SellTranForm(SellTranId);
                         st.ShowDialog();
+                    }
+                    else if (gridView.Name.Equals("gvComDetail"))
+                    {
+                        var gvDetail = gvMain.FocusedView as GridView;
+                        int TransactionId = Convert.ToInt16(gvDetail.GetRowCellValue(info.RowHandle, "TransactionId"));
+                        TransactionForm2 tf2 = new TransactionForm2(TransactionId, new List<EmployeeHomeView>(), new List<ServiceView>());
+                        tf2.ShowDialog();
                     }
                 }
                 catch (Exception) { }
@@ -471,19 +558,54 @@ namespace DuHair
             DoRowDoubleClick(gridView, pt);
         }
 
+        private void gvComDetail_DoubleClick(object sender, EventArgs e)
+        {
+            GridView gridView = (GridView)sender;
+            Point pt = gridView.GridControl.PointToClient(System.Windows.Forms.Control.MousePosition);
+            DoRowDoubleClick(gridView, pt);
+        }
+
         private void gvTransaction_CustomColumnDisplayText(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs e)
         {
-            if (e.Column == colStatus)
+            if (e.Column == colPayType)
             {
-                if (e.Value.ToString().Equals("1"))
+                var ss = e.Value;
+                if (Convert.ToBoolean(e.Value))
                 {
-                    e.DisplayText = "Đang thực hiện";
+                    e.DisplayText = "Tiền mặt";
                 }
                 else
                 {
-                    e.DisplayText = "Đã xong";
+                    e.DisplayText = "Thẻ";
                 }
             }
+        }
+
+        private void gvTransaction_KeyDown(object sender, KeyEventArgs e)
+        {
+            using (ModelContext db = new ModelContext())
+            {
+                if (MainForm.currentRole.Equals("Admin"))
+                {
+                    if (e.KeyCode == Keys.Delete)
+                    {
+                        if (new MyMessage().QuestionDev("Bạn muốn xóa hóa đơn này"))
+                        {
+                            int transactionId = Convert.ToInt32(gvTransaction.GetRowCellValue(gvTransaction.FocusedRowHandle, "TransactionId"));
+                            Transaction objTransaction = db.TransactionList.Where(m => m.TransactionId == transactionId).FirstOrDefault();
+                            objTransaction.IsDelete = true;
+                            db.SaveChanges();
+                            gvTransaction.DeleteRow(gvTransaction.FocusedRowHandle);
+                        }
+                    }
+                }
+            }
+        }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            string FileName = "E:\\Grid.xls";
+            gvIncomeSpend.ExportToXls(FileName);
         }
     }
 }

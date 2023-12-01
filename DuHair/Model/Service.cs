@@ -14,20 +14,20 @@ namespace DuHair
         public Service()
         {
             this.Materials = new HashSet<Material>();
-            this.Transactions = new HashSet<Transaction>();
         }
         [Key]
         public int ServiceId { get; set; }
+        public int Order { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
         public float Discount { get; set; }
         public float SellDiscount { get; set; }
         public string Status { get; set; }
         public virtual ICollection<Material> Materials { get; set; }
-        public virtual ICollection<Transaction> Transactions { get; set; }
+        public virtual ICollection<TransactionService> TransactionServices { get; set; }
     }
 
-    class ServiceView
+    public class ServiceView
     {
         public int ServiceId { get; set; }
         public string Name { get; set; }

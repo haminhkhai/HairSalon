@@ -30,6 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StatisticForm));
             this.gvMain = new DevExpress.XtraGrid.GridControl();
+            this.gvIncome = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIncomeName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTotal = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIncomeTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemTextEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
             this.gvEmployeeCom = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -38,14 +44,29 @@
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gvIncomeSpend = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colKeyColumn = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colIncome = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSpend = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colProfit = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn33 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn34 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gvTransaction = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colTransactionId = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTransactionIdCoded = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colCustomerName = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colChair = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAmount = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colPayType = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTransactionDate = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colStatus = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gvSellComDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gvComDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gvSellTran = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -54,54 +75,33 @@
             this.colTotalDiscount = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gvComDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gvSellComDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gvSpend = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtFrom = new DevExpress.XtraEditors.DateEdit();
             this.txtTo = new DevExpress.XtraEditors.DateEdit();
             this.btnReload = new DevExpress.XtraEditors.SimpleButton();
             this.cbStatisticType = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.gvIncomeSpend = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colKeyColumn = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIncome = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colSpend = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colTime = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colProfit = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn33 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn34 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gvIncome = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIncomeName = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colTotal = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIncomeTime = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gvSpend = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.btnExcel = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gvMain)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvIncome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvEmployeeCom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvIncomeSpend)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvTransaction)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvSellTran)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvComDetail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvSellComDetail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvComDetail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvSellTran)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvSpend)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFrom.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFrom.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTo.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbStatisticType.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvIncomeSpend)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvIncome)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvSpend)).BeginInit();
             this.SuspendLayout();
             // 
             // gvMain
@@ -109,23 +109,102 @@
             this.gvMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gvMain.Location = new System.Drawing.Point(12, 56);
+            this.gvMain.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(2);
+            this.gvMain.Location = new System.Drawing.Point(8, 47);
             this.gvMain.LookAndFeel.SkinName = "Office 2013 Dark Gray";
             this.gvMain.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
-            this.gvMain.MainView = this.gvEmployeeCom;
-            this.gvMain.MinimumSize = new System.Drawing.Size(400, 300);
+            this.gvMain.MainView = this.gvIncome;
+            this.gvMain.Margin = new System.Windows.Forms.Padding(2);
+            this.gvMain.MinimumSize = new System.Drawing.Size(267, 205);
             this.gvMain.Name = "gvMain";
-            this.gvMain.Size = new System.Drawing.Size(1298, 680);
+            this.gvMain.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemTextEdit1});
+            this.gvMain.Size = new System.Drawing.Size(865, 457);
             this.gvMain.TabIndex = 15;
             this.gvMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gvEmployeeCom,
-            this.gvTransaction,
-            this.gvSellTran,
-            this.gvComDetail,
-            this.gvSellComDetail,
-            this.gvIncomeSpend,
             this.gvIncome,
+            this.gvEmployeeCom,
+            this.gvIncomeSpend,
+            this.gvTransaction,
+            this.gvSellComDetail,
+            this.gvComDetail,
+            this.gvSellTran,
             this.gvSpend});
+            // 
+            // gvIncome
+            // 
+            this.gvIncome.Appearance.FocusedRow.BackColor = System.Drawing.Color.Gold;
+            this.gvIncome.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.gvIncome.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.Gold;
+            this.gvIncome.Appearance.HideSelectionRow.Options.UseBackColor = true;
+            this.gvIncome.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(186)))), ((int)(((byte)(224)))));
+            this.gvIncome.Appearance.Row.Options.UseBackColor = true;
+            this.gvIncome.Appearance.SelectedRow.BackColor = System.Drawing.Color.Gold;
+            this.gvIncome.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.gvIncome.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn28,
+            this.colIncomeName,
+            this.colTotal,
+            this.colIncomeTime});
+            this.gvIncome.GridControl = this.gvMain;
+            this.gvIncome.Name = "gvIncome";
+            this.gvIncome.OptionsBehavior.AutoPopulateColumns = false;
+            this.gvIncome.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gvIncome.OptionsView.ColumnAutoWidth = false;
+            this.gvIncome.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gvIncome.OptionsView.ShowGroupPanel = false;
+            // 
+            // gridColumn28
+            // 
+            this.gridColumn28.Caption = "KeyColumn";
+            this.gridColumn28.FieldName = "KeyColumn";
+            this.gridColumn28.Name = "gridColumn28";
+            this.gridColumn28.OptionsColumn.AllowEdit = false;
+            // 
+            // colIncomeName
+            // 
+            this.colIncomeName.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colIncomeName.AppearanceHeader.Options.UseFont = true;
+            this.colIncomeName.Caption = "Khoản thu";
+            this.colIncomeName.FieldName = "IncomeName";
+            this.colIncomeName.MaxWidth = 350;
+            this.colIncomeName.MinWidth = 120;
+            this.colIncomeName.Name = "colIncomeName";
+            this.colIncomeName.OptionsColumn.AllowEdit = false;
+            this.colIncomeName.Visible = true;
+            this.colIncomeName.VisibleIndex = 0;
+            this.colIncomeName.Width = 226;
+            // 
+            // colTotal
+            // 
+            this.colTotal.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colTotal.AppearanceHeader.Options.UseFont = true;
+            this.colTotal.Caption = "Số tiền";
+            this.colTotal.DisplayFormat.FormatString = "n0";
+            this.colTotal.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colTotal.FieldName = "Amount";
+            this.colTotal.Name = "colTotal";
+            this.colTotal.OptionsColumn.AllowEdit = false;
+            this.colTotal.Visible = true;
+            this.colTotal.VisibleIndex = 1;
+            this.colTotal.Width = 246;
+            // 
+            // colIncomeTime
+            // 
+            this.colIncomeTime.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colIncomeTime.AppearanceHeader.Options.UseFont = true;
+            this.colIncomeTime.Caption = "Ngày thu";
+            this.colIncomeTime.FieldName = "IncomeTime";
+            this.colIncomeTime.Name = "colIncomeTime";
+            this.colIncomeTime.OptionsColumn.AllowEdit = false;
+            this.colIncomeTime.Visible = true;
+            this.colIncomeTime.VisibleIndex = 2;
+            this.colIncomeTime.Width = 214;
+            // 
+            // repositoryItemTextEdit1
+            // 
+            this.repositoryItemTextEdit1.AutoHeight = false;
+            this.repositoryItemTextEdit1.Name = "repositoryItemTextEdit1";
             // 
             // gvEmployeeCom
             // 
@@ -134,7 +213,9 @@
             this.gvEmployeeCom.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.Gold;
             this.gvEmployeeCom.Appearance.HideSelectionRow.Options.UseBackColor = true;
             this.gvEmployeeCom.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(186)))), ((int)(((byte)(224)))));
+            this.gvEmployeeCom.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gvEmployeeCom.Appearance.Row.Options.UseBackColor = true;
+            this.gvEmployeeCom.Appearance.Row.Options.UseFont = true;
             this.gvEmployeeCom.Appearance.SelectedRow.BackColor = System.Drawing.Color.Gold;
             this.gvEmployeeCom.Appearance.SelectedRow.Options.UseBackColor = true;
             this.gvEmployeeCom.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
@@ -145,6 +226,7 @@
             this.gridColumn3,
             this.gridColumn4,
             this.gridColumn5});
+            this.gvEmployeeCom.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
             this.gvEmployeeCom.GridControl = this.gvMain;
             this.gvEmployeeCom.Name = "gvEmployeeCom";
             this.gvEmployeeCom.OptionsBehavior.AutoPopulateColumns = false;
@@ -152,11 +234,14 @@
             this.gvEmployeeCom.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gvEmployeeCom.OptionsView.ColumnAutoWidth = false;
             this.gvEmployeeCom.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gvEmployeeCom.OptionsView.RowAutoHeight = true;
             this.gvEmployeeCom.CustomDrawColumnHeader += new DevExpress.XtraGrid.Views.Grid.ColumnHeaderCustomDrawEventHandler(this.gvEmployeeCom_CustomDrawColumnHeader);
             this.gvEmployeeCom.DoubleClick += new System.EventHandler(this.gvEmployeeCom_DoubleClick);
             // 
             // gridColumn1
             // 
+            this.gridColumn1.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn1.AppearanceCell.Options.UseFont = true;
             this.gridColumn1.Caption = "EmployeeId";
             this.gridColumn1.FieldName = "EmployeeId";
             this.gridColumn1.Name = "gridColumn1";
@@ -164,6 +249,8 @@
             // 
             // gridColumn2
             // 
+            this.gridColumn2.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn2.AppearanceCell.Options.UseFont = true;
             this.gridColumn2.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn2.AppearanceHeader.Options.UseFont = true;
             this.gridColumn2.Caption = "Nhân viên";
@@ -174,22 +261,28 @@
             this.gridColumn2.OptionsColumn.AllowEdit = false;
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 0;
-            this.gridColumn2.Width = 151;
+            this.gridColumn2.Width = 250;
             // 
             // gridColumn11
             // 
+            this.gridColumn11.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn11.AppearanceCell.Options.UseFont = true;
             this.gridColumn11.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn11.AppearanceHeader.Options.UseFont = true;
             this.gridColumn11.Caption = "Lương";
+            this.gridColumn11.DisplayFormat.FormatString = "n0";
+            this.gridColumn11.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.gridColumn11.FieldName = "Wage";
             this.gridColumn11.Name = "gridColumn11";
             this.gridColumn11.OptionsColumn.AllowEdit = false;
             this.gridColumn11.Visible = true;
             this.gridColumn11.VisibleIndex = 1;
-            this.gridColumn11.Width = 116;
+            this.gridColumn11.Width = 167;
             // 
             // colTotalTranCom
             // 
+            this.colTotalTranCom.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTotalTranCom.AppearanceCell.Options.UseFont = true;
             this.colTotalTranCom.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.colTotalTranCom.AppearanceHeader.Options.UseFont = true;
             this.colTotalTranCom.Caption = "Chiết khấu";
@@ -200,10 +293,12 @@
             this.colTotalTranCom.OptionsColumn.AllowEdit = false;
             this.colTotalTranCom.Visible = true;
             this.colTotalTranCom.VisibleIndex = 2;
-            this.colTotalTranCom.Width = 102;
+            this.colTotalTranCom.Width = 168;
             // 
             // gridColumn3
             // 
+            this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn3.AppearanceCell.Options.UseFont = true;
             this.gridColumn3.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn3.AppearanceHeader.Options.UseFont = true;
             this.gridColumn3.Caption = "Tel";
@@ -216,6 +311,8 @@
             // 
             // gridColumn4
             // 
+            this.gridColumn4.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn4.AppearanceCell.Options.UseFont = true;
             this.gridColumn4.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn4.AppearanceHeader.Options.UseFont = true;
             this.gridColumn4.Caption = "Quyền";
@@ -229,6 +326,8 @@
             // 
             // gridColumn5
             // 
+            this.gridColumn5.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn5.AppearanceCell.Options.UseFont = true;
             this.gridColumn5.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn5.AppearanceHeader.Options.UseFont = true;
             this.gridColumn5.Caption = "Tình trạng";
@@ -237,448 +336,7 @@
             this.gridColumn5.OptionsColumn.AllowEdit = false;
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 5;
-            this.gridColumn5.Width = 163;
-            // 
-            // gvTransaction
-            // 
-            this.gvTransaction.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colTransactionId,
-            this.colTransactionIdCoded,
-            this.colCustomerName,
-            this.colChair,
-            this.colAmount,
-            this.colTransactionDate,
-            this.colStatus});
-            this.gvTransaction.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
-            this.gvTransaction.GridControl = this.gvMain;
-            this.gvTransaction.Name = "gvTransaction";
-            this.gvTransaction.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gvTransaction.OptionsView.ColumnAutoWidth = false;
-            this.gvTransaction.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
-            this.gvTransaction.OptionsView.ShowFooter = true;
-            this.gvTransaction.OptionsView.WaitAnimationOptions = DevExpress.XtraEditors.WaitAnimationOptions.Panel;
-            this.gvTransaction.CustomColumnDisplayText += new DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventHandler(this.gvTransaction_CustomColumnDisplayText);
-            this.gvTransaction.DoubleClick += new System.EventHandler(this.gvTransaction_DoubleClick);
-            // 
-            // colTransactionId
-            // 
-            this.colTransactionId.FieldName = "TransactionId";
-            this.colTransactionId.Name = "colTransactionId";
-            this.colTransactionId.OptionsColumn.AllowEdit = false;
-            // 
-            // colTransactionIdCoded
-            // 
-            this.colTransactionIdCoded.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.colTransactionIdCoded.AppearanceHeader.Options.UseFont = true;
-            this.colTransactionIdCoded.Caption = "Mã GD";
-            this.colTransactionIdCoded.FieldName = "TransactionIdCoded";
-            this.colTransactionIdCoded.MaxWidth = 100;
-            this.colTransactionIdCoded.MinWidth = 100;
-            this.colTransactionIdCoded.Name = "colTransactionIdCoded";
-            this.colTransactionIdCoded.OptionsColumn.AllowEdit = false;
-            this.colTransactionIdCoded.Visible = true;
-            this.colTransactionIdCoded.VisibleIndex = 0;
-            this.colTransactionIdCoded.Width = 100;
-            // 
-            // colCustomerName
-            // 
-            this.colCustomerName.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.colCustomerName.AppearanceHeader.Options.UseFont = true;
-            this.colCustomerName.Caption = "Khách";
-            this.colCustomerName.FieldName = "Name";
-            this.colCustomerName.Name = "colCustomerName";
-            this.colCustomerName.OptionsColumn.AllowEdit = false;
-            this.colCustomerName.Visible = true;
-            this.colCustomerName.VisibleIndex = 1;
-            this.colCustomerName.Width = 222;
-            // 
-            // colChair
-            // 
-            this.colChair.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.colChair.AppearanceHeader.Options.UseFont = true;
-            this.colChair.Caption = "Ghế";
-            this.colChair.FieldName = "ChairName";
-            this.colChair.MaxWidth = 100;
-            this.colChair.Name = "colChair";
-            this.colChair.OptionsColumn.AllowEdit = false;
-            this.colChair.Visible = true;
-            this.colChair.VisibleIndex = 2;
-            this.colChair.Width = 100;
-            // 
-            // colAmount
-            // 
-            this.colAmount.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.colAmount.AppearanceHeader.Options.UseFont = true;
-            this.colAmount.Caption = "Tổng tiền";
-            this.colAmount.DisplayFormat.FormatString = "n0";
-            this.colAmount.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.colAmount.FieldName = "Amount";
-            this.colAmount.Name = "colAmount";
-            this.colAmount.OptionsColumn.AllowEdit = false;
-            this.colAmount.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "Amount", "{0:n0}")});
-            this.colAmount.Visible = true;
-            this.colAmount.VisibleIndex = 3;
-            this.colAmount.Width = 214;
-            // 
-            // colTransactionDate
-            // 
-            this.colTransactionDate.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.colTransactionDate.AppearanceHeader.Options.UseFont = true;
-            this.colTransactionDate.Caption = "Ngày GD";
-            this.colTransactionDate.DisplayFormat.FormatString = "HH:mm dd/MM/yyyy";
-            this.colTransactionDate.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.colTransactionDate.FieldName = "TransactionDate";
-            this.colTransactionDate.MaxWidth = 240;
-            this.colTransactionDate.Name = "colTransactionDate";
-            this.colTransactionDate.OptionsColumn.AllowEdit = false;
-            this.colTransactionDate.Visible = true;
-            this.colTransactionDate.VisibleIndex = 4;
-            this.colTransactionDate.Width = 240;
-            // 
-            // colStatus
-            // 
-            this.colStatus.Caption = "Tình trang";
-            this.colStatus.FieldName = "Status";
-            this.colStatus.Name = "colStatus";
-            this.colStatus.Visible = true;
-            this.colStatus.VisibleIndex = 5;
-            this.colStatus.Width = 130;
-            // 
-            // gvSellTran
-            // 
-            this.gvSellTran.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn12,
-            this.gridColumn13,
-            this.gridColumn14,
-            this.gridColumn18,
-            this.colTotalDiscount,
-            this.gridColumn19,
-            this.gridColumn20});
-            this.gvSellTran.GridControl = this.gvMain;
-            this.gvSellTran.Name = "gvSellTran";
-            this.gvSellTran.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gvSellTran.OptionsView.ColumnAutoWidth = false;
-            this.gvSellTran.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
-            this.gvSellTran.OptionsView.ShowFooter = true;
-            this.gvSellTran.DoubleClick += new System.EventHandler(this.gvSellTran_DoubleClick);
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn12.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn12.FieldName = "SellTranId";
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.OptionsColumn.AllowEdit = false;
-            // 
-            // gridColumn13
-            // 
-            this.gridColumn13.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn13.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn13.Caption = "Mã phiếu";
-            this.gridColumn13.FieldName = "SellTranIdCoded";
-            this.gridColumn13.MaxWidth = 100;
-            this.gridColumn13.MinWidth = 100;
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.OptionsColumn.AllowEdit = false;
-            this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 0;
-            this.gridColumn13.Width = 100;
-            // 
-            // gridColumn14
-            // 
-            this.gridColumn14.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn14.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn14.Caption = "Khách";
-            this.gridColumn14.FieldName = "CustomerName";
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.OptionsColumn.AllowEdit = false;
-            this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 1;
-            this.gridColumn14.Width = 153;
-            // 
-            // gridColumn18
-            // 
-            this.gridColumn18.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn18.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn18.Caption = "NV tư vấn";
-            this.gridColumn18.FieldName = "EmployeeName";
-            this.gridColumn18.Name = "gridColumn18";
-            this.gridColumn18.OptionsColumn.AllowEdit = false;
-            this.gridColumn18.Visible = true;
-            this.gridColumn18.VisibleIndex = 2;
-            this.gridColumn18.Width = 160;
-            // 
-            // colTotalDiscount
-            // 
-            this.colTotalDiscount.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.colTotalDiscount.AppearanceHeader.Options.UseFont = true;
-            this.colTotalDiscount.Caption = "Chiết khấu";
-            this.colTotalDiscount.DisplayFormat.FormatString = "n0";
-            this.colTotalDiscount.FieldName = "TotalDiscountMoney";
-            this.colTotalDiscount.Name = "colTotalDiscount";
-            this.colTotalDiscount.OptionsColumn.AllowEdit = false;
-            this.colTotalDiscount.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TotalDiscountMoney", "{0:n0}")});
-            this.colTotalDiscount.Visible = true;
-            this.colTotalDiscount.VisibleIndex = 3;
-            this.colTotalDiscount.Width = 91;
-            // 
-            // gridColumn19
-            // 
-            this.gridColumn19.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn19.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn19.Caption = "Tổng tiền";
-            this.gridColumn19.DisplayFormat.FormatString = "n0";
-            this.gridColumn19.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.gridColumn19.FieldName = "Amount";
-            this.gridColumn19.Name = "gridColumn19";
-            this.gridColumn19.OptionsColumn.AllowEdit = false;
-            this.gridColumn19.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "Amount", "{0:n0}")});
-            this.gridColumn19.Visible = true;
-            this.gridColumn19.VisibleIndex = 4;
-            this.gridColumn19.Width = 124;
-            // 
-            // gridColumn20
-            // 
-            this.gridColumn20.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn20.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn20.Caption = "Ngày GD";
-            this.gridColumn20.DisplayFormat.FormatString = "HH:mm dd/MM/yyyy";
-            this.gridColumn20.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.gridColumn20.FieldName = "SellDate";
-            this.gridColumn20.MaxWidth = 240;
-            this.gridColumn20.Name = "gridColumn20";
-            this.gridColumn20.OptionsColumn.AllowEdit = false;
-            this.gridColumn20.Visible = true;
-            this.gridColumn20.VisibleIndex = 5;
-            this.gridColumn20.Width = 179;
-            // 
-            // gvComDetail
-            // 
-            this.gvComDetail.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn6,
-            this.gridColumn8,
-            this.gridColumn10,
-            this.gridColumn9,
-            this.gridColumn7});
-            this.gvComDetail.GridControl = this.gvMain;
-            this.gvComDetail.Name = "gvComDetail";
-            this.gvComDetail.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gvComDetail.OptionsView.ColumnAutoWidth = false;
-            this.gvComDetail.OptionsView.ShowFooter = true;
-            this.gvComDetail.OptionsView.ShowGroupPanel = false;
-            // 
-            // gridColumn6
-            // 
-            this.gridColumn6.Caption = "Dịch vụ";
-            this.gridColumn6.FieldName = "Name";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.OptionsColumn.AllowEdit = false;
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 0;
-            this.gridColumn6.Width = 252;
-            // 
-            // gridColumn8
-            // 
-            this.gridColumn8.Caption = "Chiết khấu (thực hiện)";
-            this.gridColumn8.DisplayFormat.FormatString = "n0";
-            this.gridColumn8.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn8.FieldName = "ComMoney";
-            this.gridColumn8.Name = "gridColumn8";
-            this.gridColumn8.OptionsColumn.AllowEdit = false;
-            this.gridColumn8.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "ComMoney", "{0:n0}")});
-            this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 1;
-            this.gridColumn8.Width = 199;
-            // 
-            // gridColumn10
-            // 
-            this.gridColumn10.Caption = "Số lần thực hiện";
-            this.gridColumn10.DisplayFormat.FormatString = "n0";
-            this.gridColumn10.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn10.FieldName = "MakeTimes";
-            this.gridColumn10.Name = "gridColumn10";
-            this.gridColumn10.OptionsColumn.AllowEdit = false;
-            this.gridColumn10.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "MakeTimes", "{0:n0}")});
-            this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 2;
-            this.gridColumn10.Width = 137;
-            // 
-            // gridColumn9
-            // 
-            this.gridColumn9.Caption = "Chiết khấu (tư vấn)";
-            this.gridColumn9.DisplayFormat.FormatString = "n0";
-            this.gridColumn9.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn9.FieldName = "SellComMoney";
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.OptionsColumn.AllowEdit = false;
-            this.gridColumn9.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "SellComMoney", "{0:n0}")});
-            this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 3;
-            this.gridColumn9.Width = 219;
-            // 
-            // gridColumn7
-            // 
-            this.gridColumn7.Caption = "Số lần tư vấn";
-            this.gridColumn7.DisplayFormat.FormatString = "n0";
-            this.gridColumn7.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn7.FieldName = "SellTimes";
-            this.gridColumn7.Name = "gridColumn7";
-            this.gridColumn7.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "SellTimes", "{0:n0}")});
-            this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 4;
-            this.gridColumn7.Width = 129;
-            // 
-            // gvSellComDetail
-            // 
-            this.gvSellComDetail.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn15,
-            this.gridColumn16,
-            this.gridColumn17});
-            this.gvSellComDetail.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
-            this.gvSellComDetail.GridControl = this.gvMain;
-            this.gvSellComDetail.Name = "gvSellComDetail";
-            this.gvSellComDetail.OptionsBehavior.AutoPopulateColumns = false;
-            this.gvSellComDetail.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gvSellComDetail.OptionsView.ColumnAutoWidth = false;
-            this.gvSellComDetail.OptionsView.ShowFooter = true;
-            this.gvSellComDetail.OptionsView.ShowGroupPanel = false;
-            this.gvSellComDetail.OptionsView.WaitAnimationOptions = DevExpress.XtraEditors.WaitAnimationOptions.Panel;
-            // 
-            // gridColumn15
-            // 
-            this.gridColumn15.Caption = "Sản phẩm";
-            this.gridColumn15.FieldName = "Name";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.OptionsColumn.AllowEdit = false;
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 0;
-            this.gridColumn15.Width = 234;
-            // 
-            // gridColumn16
-            // 
-            this.gridColumn16.Caption = "Chiết khấu";
-            this.gridColumn16.DisplayFormat.FormatString = "n0";
-            this.gridColumn16.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.gridColumn16.FieldName = "SellComMoney";
-            this.gridColumn16.Name = "gridColumn16";
-            this.gridColumn16.OptionsColumn.AllowEdit = false;
-            this.gridColumn16.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "SellComMoney", "{0:n0}")});
-            this.gridColumn16.Visible = true;
-            this.gridColumn16.VisibleIndex = 1;
-            this.gridColumn16.Width = 215;
-            // 
-            // gridColumn17
-            // 
-            this.gridColumn17.Caption = "Số lượng đã bán";
-            this.gridColumn17.DisplayFormat.FormatString = "n0";
-            this.gridColumn17.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn17.FieldName = "SellTimes";
-            this.gridColumn17.MaxWidth = 240;
-            this.gridColumn17.Name = "gridColumn17";
-            this.gridColumn17.OptionsColumn.AllowEdit = false;
-            this.gridColumn17.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "SellTimes", "{0:n0}")});
-            this.gridColumn17.Visible = true;
-            this.gridColumn17.VisibleIndex = 2;
-            this.gridColumn17.Width = 169;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(388, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 19);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "Từ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(620, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 19);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Đến";
-            // 
-            // txtFrom
-            // 
-            this.txtFrom.EditValue = "";
-            this.txtFrom.Location = new System.Drawing.Point(423, 12);
-            this.txtFrom.Name = "txtFrom";
-            this.txtFrom.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtFrom.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtFrom.Properties.DisplayFormat.FormatString = "dd/MM/yyyy";
-            this.txtFrom.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txtFrom.Properties.EditFormat.FormatString = "dd/MM/yyyy";
-            this.txtFrom.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txtFrom.Properties.Mask.EditMask = "";
-            this.txtFrom.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
-            this.txtFrom.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.txtFrom.Size = new System.Drawing.Size(188, 26);
-            this.txtFrom.TabIndex = 17;
-            // 
-            // txtTo
-            // 
-            this.txtTo.EditValue = "";
-            this.txtTo.Location = new System.Drawing.Point(663, 12);
-            this.txtTo.Name = "txtTo";
-            this.txtTo.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
-            this.txtTo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtTo.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.txtTo.Properties.DisplayFormat.FormatString = "dd/MM/yyyy";
-            this.txtTo.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txtTo.Properties.EditFormat.FormatString = "dd/MM/yyyy";
-            this.txtTo.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.txtTo.Properties.Mask.EditMask = "";
-            this.txtTo.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
-            this.txtTo.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.txtTo.Size = new System.Drawing.Size(188, 26);
-            this.txtTo.TabIndex = 19;
-            this.txtTo.EditValueChanged += new System.EventHandler(this.txtTo_EditValueChanged);
-            // 
-            // btnReload
-            // 
-            this.btnReload.Image = ((System.Drawing.Image)(resources.GetObject("btnReload.Image")));
-            this.btnReload.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
-            this.btnReload.Location = new System.Drawing.Point(868, 12);
-            this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(96, 29);
-            this.btnReload.TabIndex = 20;
-            this.btnReload.Text = "Tìm";
-            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
-            // 
-            // cbStatisticType
-            // 
-            this.cbStatisticType.EditValue = "1 - Thống kê giao dịch";
-            this.cbStatisticType.Location = new System.Drawing.Point(12, 12);
-            this.cbStatisticType.Name = "cbStatisticType";
-            this.cbStatisticType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbStatisticType.Properties.DisplayFormat.FormatString = "dd/MM/yyyy";
-            this.cbStatisticType.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.cbStatisticType.Properties.EditFormat.FormatString = "dd/MM/yyyy";
-            this.cbStatisticType.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
-            this.cbStatisticType.Properties.Items.AddRange(new object[] {
-            "1 - Thống kê giao dịch",
-            "2 - Thống kê bán sản phẩm",
-            "3 - Thống kê công nhân viên",
-            "4 - Thống kê thu chi"});
-            this.cbStatisticType.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.cbStatisticType.Size = new System.Drawing.Size(370, 26);
-            this.cbStatisticType.TabIndex = 22;
-            this.cbStatisticType.SelectedIndexChanged += new System.EventHandler(this.cbStatisticType_SelectedIndexChanged);
+            this.gridColumn5.Width = 175;
             // 
             // gvIncomeSpend
             // 
@@ -714,9 +372,13 @@
             // 
             // colIncome
             // 
+            this.colIncome.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colIncome.AppearanceCell.Options.UseFont = true;
             this.colIncome.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.colIncome.AppearanceHeader.Options.UseFont = true;
             this.colIncome.Caption = "Doanh thu";
+            this.colIncome.DisplayFormat.FormatString = "n0";
+            this.colIncome.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.colIncome.FieldName = "Income";
             this.colIncome.MaxWidth = 350;
             this.colIncome.MinWidth = 120;
@@ -724,22 +386,44 @@
             this.colIncome.OptionsColumn.AllowEdit = false;
             this.colIncome.Visible = true;
             this.colIncome.VisibleIndex = 0;
-            this.colIncome.Width = 226;
+            this.colIncome.Width = 192;
             // 
             // colSpend
             // 
+            this.colSpend.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colSpend.AppearanceCell.Options.UseFont = true;
             this.colSpend.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.colSpend.AppearanceHeader.Options.UseFont = true;
             this.colSpend.Caption = "Khoản chi";
+            this.colSpend.DisplayFormat.FormatString = "n0";
+            this.colSpend.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.colSpend.FieldName = "Spend";
             this.colSpend.Name = "colSpend";
             this.colSpend.OptionsColumn.AllowEdit = false;
             this.colSpend.Visible = true;
             this.colSpend.VisibleIndex = 1;
-            this.colSpend.Width = 246;
+            this.colSpend.Width = 174;
+            // 
+            // colProfit
+            // 
+            this.colProfit.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colProfit.AppearanceCell.Options.UseFont = true;
+            this.colProfit.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colProfit.AppearanceHeader.Options.UseFont = true;
+            this.colProfit.Caption = "Còn lại";
+            this.colProfit.DisplayFormat.FormatString = "n0";
+            this.colProfit.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colProfit.FieldName = "Profit";
+            this.colProfit.Name = "colProfit";
+            this.colProfit.OptionsColumn.AllowEdit = false;
+            this.colProfit.Visible = true;
+            this.colProfit.VisibleIndex = 2;
+            this.colProfit.Width = 148;
             // 
             // colTime
             // 
+            this.colTime.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colTime.AppearanceCell.Options.UseFont = true;
             this.colTime.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.colTime.AppearanceHeader.Options.UseFont = true;
             this.colTime.Caption = "Thời gian";
@@ -748,21 +432,7 @@
             this.colTime.FieldName = "TotalCom";
             this.colTime.Name = "colTime";
             this.colTime.OptionsColumn.AllowEdit = false;
-            this.colTime.Visible = true;
-            this.colTime.VisibleIndex = 3;
-            this.colTime.Width = 190;
-            // 
-            // colProfit
-            // 
-            this.colProfit.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.colProfit.AppearanceHeader.Options.UseFont = true;
-            this.colProfit.Caption = "Lợi nhuận";
-            this.colProfit.FieldName = "Tel";
-            this.colProfit.Name = "colProfit";
-            this.colProfit.OptionsColumn.AllowEdit = false;
-            this.colProfit.Visible = true;
-            this.colProfit.VisibleIndex = 2;
-            this.colProfit.Width = 214;
+            this.colTime.Width = 166;
             // 
             // gridColumn33
             // 
@@ -785,74 +455,369 @@
             this.gridColumn34.OptionsColumn.AllowEdit = false;
             this.gridColumn34.Width = 163;
             // 
-            // gvIncome
+            // gvTransaction
             // 
-            this.gvIncome.Appearance.FocusedRow.BackColor = System.Drawing.Color.Gold;
-            this.gvIncome.Appearance.FocusedRow.Options.UseBackColor = true;
-            this.gvIncome.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.Gold;
-            this.gvIncome.Appearance.HideSelectionRow.Options.UseBackColor = true;
-            this.gvIncome.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(186)))), ((int)(((byte)(224)))));
-            this.gvIncome.Appearance.Row.Options.UseBackColor = true;
-            this.gvIncome.Appearance.SelectedRow.BackColor = System.Drawing.Color.Gold;
-            this.gvIncome.Appearance.SelectedRow.Options.UseBackColor = true;
-            this.gvIncome.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn28,
-            this.colIncomeName,
-            this.colTotal,
-            this.colIncomeTime});
-            this.gvIncome.GridControl = this.gvMain;
-            this.gvIncome.Name = "gvIncome";
-            this.gvIncome.OptionsBehavior.AutoPopulateColumns = false;
-            this.gvIncome.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gvIncome.OptionsView.ColumnAutoWidth = false;
-            this.gvIncome.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gvTransaction.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvTransaction.Appearance.Row.Options.UseFont = true;
+            this.gvTransaction.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colTransactionId,
+            this.colTransactionIdCoded,
+            this.colCustomerName,
+            this.colAmount,
+            this.colPayType,
+            this.colTransactionDate});
+            this.gvTransaction.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.gvTransaction.GridControl = this.gvMain;
+            this.gvTransaction.Name = "gvTransaction";
+            this.gvTransaction.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gvTransaction.OptionsView.ColumnAutoWidth = false;
+            this.gvTransaction.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gvTransaction.OptionsView.RowAutoHeight = true;
+            this.gvTransaction.OptionsView.ShowFooter = true;
+            this.gvTransaction.OptionsView.WaitAnimationOptions = DevExpress.XtraEditors.WaitAnimationOptions.Panel;
+            this.gvTransaction.CustomColumnDisplayText += new DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventHandler(this.gvTransaction_CustomColumnDisplayText);
+            this.gvTransaction.KeyDown += new System.Windows.Forms.KeyEventHandler(this.gvTransaction_KeyDown);
+            this.gvTransaction.DoubleClick += new System.EventHandler(this.gvTransaction_DoubleClick);
             // 
-            // gridColumn28
+            // colTransactionId
             // 
-            this.gridColumn28.Caption = "KeyColumn";
-            this.gridColumn28.FieldName = "KeyColumn";
-            this.gridColumn28.Name = "gridColumn28";
-            this.gridColumn28.OptionsColumn.AllowEdit = false;
-            this.gridColumn28.Visible = true;
-            this.gridColumn28.VisibleIndex = 0;
+            this.colTransactionId.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTransactionId.AppearanceCell.Options.UseFont = true;
+            this.colTransactionId.FieldName = "TransactionId";
+            this.colTransactionId.Name = "colTransactionId";
+            this.colTransactionId.OptionsColumn.AllowEdit = false;
             // 
-            // colIncomeName
+            // colTransactionIdCoded
             // 
-            this.colIncomeName.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.colIncomeName.AppearanceHeader.Options.UseFont = true;
-            this.colIncomeName.Caption = "Khoản thu";
-            this.colIncomeName.FieldName = "IncomeName";
-            this.colIncomeName.MaxWidth = 350;
-            this.colIncomeName.MinWidth = 120;
-            this.colIncomeName.Name = "colIncomeName";
-            this.colIncomeName.OptionsColumn.AllowEdit = false;
-            this.colIncomeName.Visible = true;
-            this.colIncomeName.VisibleIndex = 1;
-            this.colIncomeName.Width = 226;
+            this.colTransactionIdCoded.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTransactionIdCoded.AppearanceCell.Options.UseFont = true;
+            this.colTransactionIdCoded.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTransactionIdCoded.AppearanceHeader.Options.UseFont = true;
+            this.colTransactionIdCoded.Caption = "Mã GD";
+            this.colTransactionIdCoded.FieldName = "TransactionIdCoded";
+            this.colTransactionIdCoded.MaxWidth = 100;
+            this.colTransactionIdCoded.MinWidth = 100;
+            this.colTransactionIdCoded.Name = "colTransactionIdCoded";
+            this.colTransactionIdCoded.OptionsColumn.AllowEdit = false;
+            this.colTransactionIdCoded.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Count)});
+            this.colTransactionIdCoded.Visible = true;
+            this.colTransactionIdCoded.VisibleIndex = 0;
+            this.colTransactionIdCoded.Width = 100;
             // 
-            // colTotal
+            // colCustomerName
             // 
-            this.colTotal.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.colTotal.AppearanceHeader.Options.UseFont = true;
-            this.colTotal.Caption = "Tổng";
-            this.colTotal.FieldName = "Total";
-            this.colTotal.Name = "colTotal";
-            this.colTotal.OptionsColumn.AllowEdit = false;
-            this.colTotal.Visible = true;
-            this.colTotal.VisibleIndex = 2;
-            this.colTotal.Width = 246;
+            this.colCustomerName.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colCustomerName.AppearanceCell.Options.UseFont = true;
+            this.colCustomerName.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colCustomerName.AppearanceHeader.Options.UseFont = true;
+            this.colCustomerName.Caption = "Khách";
+            this.colCustomerName.FieldName = "Name";
+            this.colCustomerName.Name = "colCustomerName";
+            this.colCustomerName.OptionsColumn.AllowEdit = false;
+            this.colCustomerName.Visible = true;
+            this.colCustomerName.VisibleIndex = 1;
+            this.colCustomerName.Width = 194;
             // 
-            // colIncomeTime
+            // colAmount
             // 
-            this.colIncomeTime.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.colIncomeTime.AppearanceHeader.Options.UseFont = true;
-            this.colIncomeTime.Caption = "Thời gian";
-            this.colIncomeTime.FieldName = "IncomeTime";
-            this.colIncomeTime.Name = "colIncomeTime";
-            this.colIncomeTime.OptionsColumn.AllowEdit = false;
-            this.colIncomeTime.Visible = true;
-            this.colIncomeTime.VisibleIndex = 3;
-            this.colIncomeTime.Width = 214;
+            this.colAmount.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colAmount.AppearanceCell.Options.UseFont = true;
+            this.colAmount.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colAmount.AppearanceHeader.Options.UseFont = true;
+            this.colAmount.Caption = "Tổng tiền";
+            this.colAmount.DisplayFormat.FormatString = "n0";
+            this.colAmount.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.colAmount.FieldName = "Amount";
+            this.colAmount.Name = "colAmount";
+            this.colAmount.OptionsColumn.AllowEdit = false;
+            this.colAmount.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "Amount", "{0:n0}")});
+            this.colAmount.Visible = true;
+            this.colAmount.VisibleIndex = 2;
+            this.colAmount.Width = 166;
+            // 
+            // colPayType
+            // 
+            this.colPayType.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.colPayType.AppearanceCell.Options.UseFont = true;
+            this.colPayType.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colPayType.AppearanceHeader.Options.UseFont = true;
+            this.colPayType.Caption = "Thanh toán";
+            this.colPayType.ColumnEdit = this.repositoryItemTextEdit1;
+            this.colPayType.FieldName = "IsPaidWithCash";
+            this.colPayType.Name = "colPayType";
+            this.colPayType.OptionsColumn.AllowEdit = false;
+            this.colPayType.Visible = true;
+            this.colPayType.VisibleIndex = 3;
+            this.colPayType.Width = 127;
+            // 
+            // colTransactionDate
+            // 
+            this.colTransactionDate.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTransactionDate.AppearanceCell.Options.UseFont = true;
+            this.colTransactionDate.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTransactionDate.AppearanceHeader.Options.UseFont = true;
+            this.colTransactionDate.Caption = "Ngày GD";
+            this.colTransactionDate.DisplayFormat.FormatString = "HH:mm dd/MM/yyyy";
+            this.colTransactionDate.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.colTransactionDate.FieldName = "TransactionDate";
+            this.colTransactionDate.MaxWidth = 240;
+            this.colTransactionDate.Name = "colTransactionDate";
+            this.colTransactionDate.OptionsColumn.AllowEdit = false;
+            this.colTransactionDate.Visible = true;
+            this.colTransactionDate.VisibleIndex = 4;
+            this.colTransactionDate.Width = 174;
+            // 
+            // gvSellComDetail
+            // 
+            this.gvSellComDetail.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvSellComDetail.Appearance.Row.Options.UseFont = true;
+            this.gvSellComDetail.Appearance.ViewCaption.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvSellComDetail.Appearance.ViewCaption.Options.UseFont = true;
+            this.gvSellComDetail.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn15,
+            this.gridColumn16,
+            this.gridColumn17});
+            this.gvSellComDetail.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.gvSellComDetail.GridControl = this.gvMain;
+            this.gvSellComDetail.Name = "gvSellComDetail";
+            this.gvSellComDetail.OptionsBehavior.AutoPopulateColumns = false;
+            this.gvSellComDetail.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gvSellComDetail.OptionsView.ColumnAutoWidth = false;
+            this.gvSellComDetail.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gvSellComDetail.OptionsView.RowAutoHeight = true;
+            this.gvSellComDetail.OptionsView.ShowFooter = true;
+            this.gvSellComDetail.OptionsView.ShowGroupPanel = false;
+            this.gvSellComDetail.OptionsView.WaitAnimationOptions = DevExpress.XtraEditors.WaitAnimationOptions.Panel;
+            // 
+            // gridColumn15
+            // 
+            this.gridColumn15.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn15.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn15.Caption = "Sản phẩm";
+            this.gridColumn15.FieldName = "Name";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.OptionsColumn.AllowEdit = false;
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 0;
+            this.gridColumn15.Width = 234;
+            // 
+            // gridColumn16
+            // 
+            this.gridColumn16.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn16.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn16.Caption = "Chiết khấu";
+            this.gridColumn16.DisplayFormat.FormatString = "n0";
+            this.gridColumn16.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.gridColumn16.FieldName = "SellComMoney";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.OptionsColumn.AllowEdit = false;
+            this.gridColumn16.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "SellComMoney", "{0:n0}")});
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 1;
+            this.gridColumn16.Width = 215;
+            // 
+            // gridColumn17
+            // 
+            this.gridColumn17.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn17.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn17.Caption = "Số lượng đã bán";
+            this.gridColumn17.DisplayFormat.FormatString = "n0";
+            this.gridColumn17.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.gridColumn17.FieldName = "SellTimes";
+            this.gridColumn17.MaxWidth = 240;
+            this.gridColumn17.Name = "gridColumn17";
+            this.gridColumn17.OptionsColumn.AllowEdit = false;
+            this.gridColumn17.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "SellTimes", "{0:n0}")});
+            this.gridColumn17.Visible = true;
+            this.gridColumn17.VisibleIndex = 2;
+            this.gridColumn17.Width = 169;
+            // 
+            // gvComDetail
+            // 
+            this.gvComDetail.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvComDetail.Appearance.Row.Options.UseFont = true;
+            this.gvComDetail.Appearance.ViewCaption.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvComDetail.Appearance.ViewCaption.Options.UseFont = true;
+            this.gvComDetail.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn7,
+            this.gridColumn6,
+            this.gridColumn8});
+            this.gvComDetail.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.gvComDetail.GridControl = this.gvMain;
+            this.gvComDetail.Name = "gvComDetail";
+            this.gvComDetail.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gvComDetail.OptionsView.ColumnAutoWidth = false;
+            this.gvComDetail.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gvComDetail.OptionsView.RowAutoHeight = true;
+            this.gvComDetail.OptionsView.ShowFooter = true;
+            this.gvComDetail.OptionsView.ShowGroupPanel = false;
+            this.gvComDetail.DoubleClick += new System.EventHandler(this.gvComDetail_DoubleClick);
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "gridColumn7";
+            this.gridColumn7.FieldName = "TransactionId";
+            this.gridColumn7.Name = "gridColumn7";
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn6.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn6.Caption = "Số HĐ dịch vụ";
+            this.gridColumn6.FieldName = "TransactionIdCoded";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.OptionsColumn.AllowEdit = false;
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 0;
+            this.gridColumn6.Width = 252;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn8.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn8.Caption = "Chiết khấu ";
+            this.gridColumn8.DisplayFormat.FormatString = "n0";
+            this.gridColumn8.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.gridColumn8.FieldName = "DiscountMoney";
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.OptionsColumn.AllowEdit = false;
+            this.gridColumn8.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "DiscountMoney", "{0:n0}")});
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 1;
+            this.gridColumn8.Width = 199;
+            // 
+            // gvSellTran
+            // 
+            this.gvSellTran.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gvSellTran.Appearance.Row.Options.UseFont = true;
+            this.gvSellTran.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn12,
+            this.gridColumn13,
+            this.gridColumn14,
+            this.gridColumn18,
+            this.colTotalDiscount,
+            this.gridColumn19,
+            this.gridColumn20});
+            this.gvSellTran.GridControl = this.gvMain;
+            this.gvSellTran.Name = "gvSellTran";
+            this.gvSellTran.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gvSellTran.OptionsView.ColumnAutoWidth = false;
+            this.gvSellTran.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gvSellTran.OptionsView.RowAutoHeight = true;
+            this.gvSellTran.OptionsView.ShowFooter = true;
+            this.gvSellTran.DoubleClick += new System.EventHandler(this.gvSellTran_DoubleClick);
+            // 
+            // gridColumn12
+            // 
+            this.gridColumn12.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn12.AppearanceCell.Options.UseFont = true;
+            this.gridColumn12.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn12.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn12.FieldName = "SellTranId";
+            this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.OptionsColumn.AllowEdit = false;
+            // 
+            // gridColumn13
+            // 
+            this.gridColumn13.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn13.AppearanceCell.Options.UseFont = true;
+            this.gridColumn13.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn13.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn13.Caption = "Mã phiếu";
+            this.gridColumn13.FieldName = "SellTranIdCoded";
+            this.gridColumn13.MaxWidth = 100;
+            this.gridColumn13.MinWidth = 100;
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.OptionsColumn.AllowEdit = false;
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 0;
+            this.gridColumn13.Width = 100;
+            // 
+            // gridColumn14
+            // 
+            this.gridColumn14.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn14.AppearanceCell.Options.UseFont = true;
+            this.gridColumn14.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn14.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn14.Caption = "Khách";
+            this.gridColumn14.FieldName = "CustomerName";
+            this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.OptionsColumn.AllowEdit = false;
+            this.gridColumn14.Visible = true;
+            this.gridColumn14.VisibleIndex = 1;
+            this.gridColumn14.Width = 153;
+            // 
+            // gridColumn18
+            // 
+            this.gridColumn18.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn18.AppearanceCell.Options.UseFont = true;
+            this.gridColumn18.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn18.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn18.Caption = "NV tư vấn";
+            this.gridColumn18.FieldName = "EmployeeName";
+            this.gridColumn18.Name = "gridColumn18";
+            this.gridColumn18.OptionsColumn.AllowEdit = false;
+            this.gridColumn18.Visible = true;
+            this.gridColumn18.VisibleIndex = 2;
+            this.gridColumn18.Width = 160;
+            // 
+            // colTotalDiscount
+            // 
+            this.colTotalDiscount.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTotalDiscount.AppearanceCell.Options.UseFont = true;
+            this.colTotalDiscount.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTotalDiscount.AppearanceHeader.Options.UseFont = true;
+            this.colTotalDiscount.Caption = "Chiết khấu";
+            this.colTotalDiscount.DisplayFormat.FormatString = "n0";
+            this.colTotalDiscount.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.colTotalDiscount.FieldName = "TotalDiscountMoney";
+            this.colTotalDiscount.Name = "colTotalDiscount";
+            this.colTotalDiscount.OptionsColumn.AllowEdit = false;
+            this.colTotalDiscount.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "TotalDiscountMoney", "{0:n0}")});
+            this.colTotalDiscount.Visible = true;
+            this.colTotalDiscount.VisibleIndex = 3;
+            this.colTotalDiscount.Width = 150;
+            // 
+            // gridColumn19
+            // 
+            this.gridColumn19.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn19.AppearanceCell.Options.UseFont = true;
+            this.gridColumn19.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn19.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn19.Caption = "Tổng tiền";
+            this.gridColumn19.DisplayFormat.FormatString = "n0";
+            this.gridColumn19.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.gridColumn19.FieldName = "Amount";
+            this.gridColumn19.Name = "gridColumn19";
+            this.gridColumn19.OptionsColumn.AllowEdit = false;
+            this.gridColumn19.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "Amount", "{0:n0}")});
+            this.gridColumn19.Visible = true;
+            this.gridColumn19.VisibleIndex = 4;
+            this.gridColumn19.Width = 124;
+            // 
+            // gridColumn20
+            // 
+            this.gridColumn20.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn20.AppearanceCell.Options.UseFont = true;
+            this.gridColumn20.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn20.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn20.Caption = "Ngày GD";
+            this.gridColumn20.DisplayFormat.FormatString = "HH:mm dd/MM/yyyy";
+            this.gridColumn20.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.gridColumn20.FieldName = "SellDate";
+            this.gridColumn20.MaxWidth = 240;
+            this.gridColumn20.Name = "gridColumn20";
+            this.gridColumn20.OptionsColumn.AllowEdit = false;
+            this.gridColumn20.Visible = true;
+            this.gridColumn20.VisibleIndex = 5;
+            this.gridColumn20.Width = 179;
             // 
             // gvSpend
             // 
@@ -923,11 +888,128 @@
             this.gridColumn32.VisibleIndex = 3;
             this.gridColumn32.Width = 214;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(259, 13);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 17);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Từ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(415, 13);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(33, 17);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Đến";
+            // 
+            // txtFrom
+            // 
+            this.txtFrom.EditValue = "";
+            this.txtFrom.Location = new System.Drawing.Point(288, 8);
+            this.txtFrom.Margin = new System.Windows.Forms.Padding(2);
+            this.txtFrom.Name = "txtFrom";
+            this.txtFrom.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFrom.Properties.Appearance.Options.UseFont = true;
+            this.txtFrom.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.txtFrom.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.txtFrom.Properties.Mask.EditMask = "dd/MM/yyyy";
+            this.txtFrom.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txtFrom.Size = new System.Drawing.Size(125, 24);
+            this.txtFrom.TabIndex = 17;
+            // 
+            // txtTo
+            // 
+            this.txtTo.EditValue = "";
+            this.txtTo.Location = new System.Drawing.Point(452, 8);
+            this.txtTo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTo.Name = "txtTo";
+            this.txtTo.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.txtTo.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTo.Properties.Appearance.Options.UseFont = true;
+            this.txtTo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.txtTo.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.txtTo.Properties.DisplayFormat.FormatString = "dd/MM/yyyy";
+            this.txtTo.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txtTo.Properties.EditFormat.FormatString = "dd/MM/yyyy";
+            this.txtTo.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.txtTo.Properties.Mask.EditMask = "dd/MM/yyyy";
+            this.txtTo.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.txtTo.Size = new System.Drawing.Size(125, 24);
+            this.txtTo.TabIndex = 19;
+            this.txtTo.EditValueChanged += new System.EventHandler(this.txtTo_EditValueChanged);
+            // 
+            // btnReload
+            // 
+            this.btnReload.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReload.Appearance.Options.UseFont = true;
+            this.btnReload.Image = ((System.Drawing.Image)(resources.GetObject("btnReload.Image")));
+            this.btnReload.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
+            this.btnReload.Location = new System.Drawing.Point(590, 7);
+            this.btnReload.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(74, 27);
+            this.btnReload.TabIndex = 20;
+            this.btnReload.Text = "Tìm";
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
+            // 
+            // cbStatisticType
+            // 
+            this.cbStatisticType.EditValue = "1 - Thống kê giao dịch";
+            this.cbStatisticType.Location = new System.Drawing.Point(8, 8);
+            this.cbStatisticType.Margin = new System.Windows.Forms.Padding(2);
+            this.cbStatisticType.Name = "cbStatisticType";
+            this.cbStatisticType.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbStatisticType.Properties.Appearance.Options.UseFont = true;
+            this.cbStatisticType.Properties.AppearanceDropDown.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbStatisticType.Properties.AppearanceDropDown.Options.UseFont = true;
+            this.cbStatisticType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbStatisticType.Properties.DisplayFormat.FormatString = "dd/MM/yyyy";
+            this.cbStatisticType.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.cbStatisticType.Properties.EditFormat.FormatString = "dd/MM/yyyy";
+            this.cbStatisticType.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Custom;
+            this.cbStatisticType.Properties.Items.AddRange(new object[] {
+            "1 - Thống kê giao dịch",
+            "2 - Thống kê bán sản phẩm",
+            "3 - Thống kê công nhân viên",
+            "4 - Thống kê thu chi"});
+            this.cbStatisticType.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.cbStatisticType.Size = new System.Drawing.Size(247, 24);
+            this.cbStatisticType.TabIndex = 22;
+            this.cbStatisticType.SelectedIndexChanged += new System.EventHandler(this.cbStatisticType_SelectedIndexChanged);
+            // 
+            // btnExcel
+            // 
+            this.btnExcel.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcel.Appearance.Options.UseFont = true;
+            this.btnExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnExcel.Image")));
+            this.btnExcel.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
+            this.btnExcel.Location = new System.Drawing.Point(668, 7);
+            this.btnExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(74, 27);
+            this.btnExcel.TabIndex = 23;
+            this.btnExcel.Text = "Excel";
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
             // StatisticForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1322, 747);
+            this.ClientSize = new System.Drawing.Size(881, 511);
+            this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.btnReload);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -935,23 +1017,25 @@
             this.Controls.Add(this.txtFrom);
             this.Controls.Add(this.txtTo);
             this.Controls.Add(this.cbStatisticType);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "StatisticForm";
             this.Text = "Thống kê";
             this.Load += new System.EventHandler(this.StatisticForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gvMain)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvIncome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvEmployeeCom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvIncomeSpend)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvTransaction)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvSellTran)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvComDetail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvSellComDetail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvComDetail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvSellTran)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvSpend)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFrom.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFrom.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTo.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbStatisticType.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvIncomeSpend)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvIncome)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gvSpend)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -971,7 +1055,6 @@
         private DevExpress.XtraEditors.DateEdit txtFrom;
         private DevExpress.XtraEditors.DateEdit txtTo;
         private DevExpress.XtraEditors.SimpleButton btnReload;
-        private DevExpress.XtraGrid.Columns.GridColumn colChair;
         private DevExpress.XtraEditors.ComboBoxEdit cbStatisticType;
         private DevExpress.XtraGrid.Views.Grid.GridView gvEmployeeCom;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
@@ -982,10 +1065,7 @@
         private DevExpress.XtraGrid.Views.Grid.GridView gvComDetail;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Views.Grid.GridView gvSellComDetail;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
@@ -999,7 +1079,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn colTotalDiscount;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn19;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn20;
-        private DevExpress.XtraGrid.Columns.GridColumn colStatus;
         private DevExpress.XtraGrid.Views.Grid.GridView gvIncomeSpend;
         private DevExpress.XtraGrid.Columns.GridColumn colKeyColumn;
         private DevExpress.XtraGrid.Columns.GridColumn colIncome;
@@ -1018,5 +1097,9 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn30;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
+        private DevExpress.XtraGrid.Columns.GridColumn colPayType;
+        private DevExpress.XtraEditors.Repository.RepositoryItemTextEdit repositoryItemTextEdit1;
+        private DevExpress.XtraEditors.SimpleButton btnExcel;
     }
 }

@@ -14,7 +14,7 @@ using System.Threading.Tasks;
         public DbSet<Service> ServiceList { get; set; }
         public DbSet<Customer> CustomerList { get; set; }
         public DbSet<Transaction> TransactionList { get; set; }
-        public DbSet<Chair> ChairList { get; set; }
+        //public DbSet<Chair> ChairList { get; set; }
         public DbSet<Warehouse> WarehouseList { get; set; }
         public DbSet<Restock> RestockList { get; set; }
         public DbSet<RestockDetail> RestockDetailList { get; set; }
@@ -26,6 +26,8 @@ using System.Threading.Tasks;
         public DbSet<TkDetail> TkDetailList { get; set; }
         public DbSet<SellTran> SellTranList { get; set; }
         public DbSet<SellTranDetail> SellTranDetailList { get; set; }
+        public DbSet<TransactionService> TransactionServiceList { get; set; }
+        public DbSet<TransactionEmployee> TransactionEmployeeList { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

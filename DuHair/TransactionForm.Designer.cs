@@ -40,7 +40,6 @@
             this.colPrice = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colSellEmployeeName = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.lblChair = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
@@ -57,7 +56,6 @@
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.txtNote = new DevExpress.XtraEditors.TextEdit();
-            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.btnClose = new DevExpress.XtraEditors.SimpleButton();
             this.lblAmount = new System.Windows.Forms.Label();
             this.btnMoney = new DevExpress.XtraEditors.SimpleButton();
@@ -65,6 +63,8 @@
             this.lbStatus = new DevExpress.XtraEditors.LabelControl();
             this.lbEmployeeName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
+            this.lblChair = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvMainDetail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvDetail)).BeginInit();
@@ -197,17 +197,6 @@
             this.colSellEmployeeName.Visible = true;
             this.colSellEmployeeName.VisibleIndex = 3;
             this.colSellEmployeeName.Width = 116;
-            // 
-            // lblChair
-            // 
-            this.lblChair.AutoSize = true;
-            this.lblChair.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChair.Location = new System.Drawing.Point(4, 4);
-            this.lblChair.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblChair.Name = "lblChair";
-            this.lblChair.Size = new System.Drawing.Size(176, 58);
-            this.lblChair.TabIndex = 5;
-            this.lblChair.Text = "Ghế 13";
             // 
             // label3
             // 
@@ -408,18 +397,6 @@
             this.txtNote.Size = new System.Drawing.Size(418, 24);
             this.txtNote.TabIndex = 4;
             // 
-            // btnSave
-            // 
-            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
-            this.btnSave.Location = new System.Drawing.Point(391, 469);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(58, 27);
-            this.btnSave.TabIndex = 6;
-            this.btnSave.Text = "&Lưu";
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -499,6 +476,29 @@
             this.label2.Text = "Thu ngân:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
+            this.btnSave.Location = new System.Drawing.Point(391, 469);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(58, 27);
+            this.btnSave.TabIndex = 6;
+            this.btnSave.Text = "&Lưu";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // lblChair
+            // 
+            this.lblChair.AutoSize = true;
+            this.lblChair.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChair.Location = new System.Drawing.Point(4, 4);
+            this.lblChair.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblChair.Name = "lblChair";
+            this.lblChair.Size = new System.Drawing.Size(176, 58);
+            this.lblChair.TabIndex = 5;
+            this.lblChair.Text = "Ghế 13";
+            // 
             // TransactionForm
             // 
             this.AcceptButton = this.btnSave;
@@ -546,15 +546,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblChair;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Label label7;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private DevExpress.XtraEditors.SimpleButton btnSave;
         private DevExpress.XtraEditors.SimpleButton btnClose;
         private System.Windows.Forms.Label lblAmount;
         private DevExpress.XtraEditors.SearchLookUpEdit cbCustomer;
@@ -576,10 +573,13 @@
         private DevExpress.XtraGrid.Columns.GridColumn colSellEmployeeName;
         private DevExpress.XtraEditors.LabelControl lbStatus;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit txtNote;
         private DevExpress.XtraGrid.Views.Grid.GridView gvDetail;
         private System.Windows.Forms.Label lbEmployeeName;
         private System.Windows.Forms.Label label2;
         private DevExpress.XtraGrid.Columns.GridColumn colQuantity;
+        private System.Windows.Forms.Label label8;
+        private DevExpress.XtraEditors.TextEdit txtNote;
+        private DevExpress.XtraEditors.SimpleButton btnSave;
+        private System.Windows.Forms.Label lblChair;
     }
 }
